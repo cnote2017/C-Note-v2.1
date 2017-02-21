@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Quark Core</source>
+        <source>About C-Note Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&lt;b&gt;Quark Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -28,7 +28,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Авторське право</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
+        <source>The C-Note Core developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -103,11 +103,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Це ваші Quark адреси для відправки платежів. Перед відправкою монети Завжди перевіряйте суму та адресу прийому.</translation>
+        <source>These are your C-Note addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Це ваші C-Note адреси для відправки платежів. Перед відправкою монети Завжди перевіряйте суму та адресу прийому.</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <source>These are your C-Note addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -225,7 +225,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Гаманець зашифровано</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
         <translation>Біткоін-клієнт буде закрито для завершення процесу шифрування. Пам&apos;ятайте, що шифрування гаманця не може повністю захистити ваші біткоіни від крадіжки, у випадку якщо ваш комп&apos;ютер буде інфіковано шкідливими програмами.</translation>
     </message>
     <message>
@@ -296,8 +296,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Вийти</translation>
     </message>
     <message>
-        <source>Show information about Quark</source>
-        <translation>Показати інформацію про Quark</translation>
+        <source>Show information about C-Note</source>
+        <translation>Показати інформацію про C-Note</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -344,11 +344,11 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Переіндексація блоків на диску ...</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
+        <source>Send coins to a C-Note address</source>
         <translation>Відправити монети на вказану адресу</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
+        <source>Modify configuration options for C-Note</source>
         <translation>Редагувати параметри</translation>
     </message>
     <message>
@@ -372,8 +372,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Перевірити повідомлення...</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -400,12 +400,12 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Шифрування закритих ключів, які належать вашому гаманці</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
-        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою Quark-адресою </translation>
+        <source>Sign messages with your C-Note addresses to prove you own them</source>
+        <translation>Підтвердіть, що Ви є власником повідомлення підписавши його Вашою C-Note-адресою </translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Quark-адресою</translation>
+        <source>Verify messages to ensure they were signed with specified C-Note addresses</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною C-Note-адресою</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -428,15 +428,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[тестова мережа]</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Ядро</translation>
+        <source>C-Note Core</source>
+        <translation>C-Note Ядро</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and quark: URIs)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
+        <source>&amp;About C-Note Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -456,15 +456,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
+        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Quark client</source>
+        <source>C-Note client</source>
         <translation>Bitcoin-клієнт</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
+        <source>%n active connection(s) to C-Note network</source>
         <translation><numerusform>%n активне з&apos;єднання з мережею</numerusform><numerusform>%n активні з&apos;єднання з мережею</numerusform><numerusform>%n активних з&apos;єднань з мережею</numerusform></translation>
     </message>
     <message>
@@ -560,8 +560,8 @@ Address: %4
         <translation>&lt;b&gt;Зашифрований&lt;/b&gt; гаманець &lt;b&gt;заблоковано&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Quark can no longer continue safely and will quit.</source>
-        <translation>Сталася фатальна помилка. Quark більше не може продовжувати безпечно і піде.</translation>
+        <source>A fatal error occurred. C-Note can no longer continue safely and will quit.</source>
+        <translation>Сталася фатальна помилка. C-Note більше не може продовжувати безпечно і піде.</translation>
     </message>
 </context>
 <context>
@@ -845,8 +845,8 @@ Address: %4
         <translation>Введена адреса «%1» вже присутня в адресній книзі.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Quark address.</source>
-        <translation>Введена адреса «%1» не є коректною адресою в мережі Quark.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid C-Note address.</source>
+        <translation>Введена адреса «%1» не є коректною адресою в мережі C-Note.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -883,12 +883,12 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core - Command-line options</source>
+        <source>C-Note Core - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Ядро</translation>
+        <source>C-Note Core</source>
+        <translation>C-Note Ядро</translation>
     </message>
     <message>
         <source>version</source>
@@ -934,15 +934,15 @@ Address: %4
         <translation>Вітання</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
+        <source>Welcome to C-Note Core.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Quark Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Quark Core will download and store a copy of the Quark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -954,8 +954,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1016,11 +1016,11 @@ Address: %4
         <translation>Заплатити комісі&amp;ю</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
+        <source>Automatically start C-Note after logging in to the system.</source>
         <translation>Автоматично запускати гаманець при вході до системи.</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
+        <source>&amp;Start C-Note on system login</source>
         <translation>&amp;Запускати гаманець при вході в систему</translation>
     </message>
     <message>
@@ -1036,7 +1036,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Connect to the Quark network through a SOCKS proxy.</source>
+        <source>Connect to the C-Note network through a SOCKS proxy.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1096,7 +1096,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <source>Automatically open the C-Note client port on the router. This only works when your router supports UPnP and it is enabled.</source>
         <translation>Автоматично відкривати порт для клієнту біткоін на роутері. Працює лише якщо ваш роутер підтримує UPnP і ця функція увімкнена.</translation>
     </message>
     <message>
@@ -1152,8 +1152,8 @@ Address: %4
         <translation>Мова інтерфейсу користувача:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
-        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску Quark.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting C-Note.</source>
+        <translation>Встановлює мову інтерфейсу. Зміни набудуть чинності після перезапуску C-Note.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1164,8 +1164,8 @@ Address: %4
         <translation>Виберіть одиницю вимірювання монет, яка буде відображатись в гаманці та при відправленні.</translation>
     </message>
     <message>
-        <source>Whether to show Quark addresses in the transaction list or not.</source>
-        <translation>Незалежно від того, щоб показати Quark адреси в списку транзакцій чи ні.</translation>
+        <source>Whether to show C-Note addresses in the transaction list or not.</source>
+        <translation>Незалежно від того, щоб показати C-Note адреси в списку транзакцій чи ні.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1219,8 +1219,8 @@ Address: %4
         <translation>Форма</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею Quark після встановлення підключення, але цей процес ще не завершено.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the C-Note network after a connection is established, but this process has not completed yet.</source>
+        <translation>Показана інформація вже може бути застарілою. Ваш гаманець буде автоматично синхронізовано з мережею C-Note після встановлення підключення, але цей процес ще не завершено.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1274,8 +1274,8 @@ Address: %4
         <translation>Обробка URI</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Quark address or malformed URI parameters.</source>
-        <translation>Неможливо обробити URI! Це може бути викликано неправильною Quark-адресою, чи невірними параметрами URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid C-Note address or malformed URI parameters.</source>
+        <translation>Неможливо обробити URI! Це може бути викликано неправильною C-Note-адресою, чи невірними параметрами URI.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1341,8 +1341,8 @@ Address: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1357,12 +1357,12 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Quark Core didn&apos;t yet exit safely...</source>
+        <source>C-Note Core didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a Quark address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Введіть адресу Quark (наприклад QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
+        <translation>Введіть адресу C-Note (наприклад QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
     </message>
 </context>
 <context>
@@ -1483,16 +1483,16 @@ Address: %4
         <translation>Файл звіту зневадження</translation>
     </message>
     <message>
-        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Відкрийте налагодження файл журналу Quark з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
+        <source>Open the C-Note debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Відкрийте налагодження файл журналу C-Note з поточного каталогу даних. Це може зайняти кілька секунд для великих файлів журналів.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Очистити консоль</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>Вітаємо у консолі Quark RPC.</translation>
+        <source>Welcome to the C-Note RPC console.</source>
+        <translation>Вітаємо у консолі C-Note RPC.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1554,7 +1554,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Quark network.</source>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the C-Note network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1867,7 +1867,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Warning: Invalid Quark address</source>
+        <source>Warning: Invalid C-Note address</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1954,7 +1954,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Quark network.</source>
+        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1973,7 +1973,7 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Quark Core is shutting down...</source>
+        <source>C-Note Core is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1997,7 +1997,7 @@ Address: %4
     </message>
     <message>
         <source>The address to sign the message with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Введіть адресу Quark (наприклад QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <translation>Введіть адресу C-Note (наприклад QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2028,7 +2028,7 @@ Address: %4
         <translation>Копіювати поточну сигнатуру до системного буферу обміну</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Quark address</source>
+        <source>Sign the message to prove you own this C-Note address</source>
         <translation>Підпишіть повідомлення щоб довести, що ви є власником цієї адреси</translation>
     </message>
     <message>
@@ -2053,11 +2053,11 @@ Address: %4
     </message>
     <message>
         <source>The address the message was signed with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Введіть адресу Quark (наприклад QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <translation>Введіть адресу C-Note (наприклад QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Quark address</source>
-        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною Quark-адресою</translation>
+        <source>Verify the message to ensure it was signed with the specified C-Note address</source>
+        <translation>Перевірте повідомлення для впевненості, що воно підписано вказаною C-Note-адресою</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2068,8 +2068,8 @@ Address: %4
         <translation>Скинути всі поля перевірки повідомлення</translation>
     </message>
     <message>
-        <source>Enter a Quark address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Введіть адресу Quark (наприклад QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
+        <translation>Введіть адресу C-Note (наприклад QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2127,11 +2127,11 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Ядро</translation>
+        <source>C-Note Core</source>
+        <translation>C-Note Ядро</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
+        <source>The C-Note Core developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2658,7 +2658,7 @@ Address: %4
         <translation>Приймати команди із командного рядка та команди JSON-RPC</translation>
     </message>
     <message>
-        <source>Quark Core RPC client version</source>
+        <source>C-Note Core RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2683,7 +2683,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2756,7 +2756,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
         <translation>Це тест збірки попередньою версією - використовуйте на свій страх і ризик - не використовувати для гірничодобувних або торгових додатків</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Quark Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2768,8 +2768,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
         <translation>Увага: встановлено занадто велику комісію (-paytxfee). Комісія зніматиметься кожен раз коли ви проводитимете транзакції.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Quark will not work properly.</source>
-        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&apos;ютері. Якщо ваш годинник йде неправильно, Quark може працювати некоректно.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong C-Note will not work properly.</source>
+        <translation>Увага: будь ласка, перевірте дату і час на своєму комп&apos;ютері. Якщо ваш годинник йде неправильно, C-Note може працювати некоректно.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2804,7 +2804,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
         <translation>Спроба відновити закриті ключі з пошкодженого wallet.dat</translation>
     </message>
     <message>
-        <source>Quark Core Daemon</source>
+        <source>C-Note Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3048,7 +3048,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
         <translation>Імпорт блоків з зовнішнього файлу blk000??.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Quark Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3112,7 +3112,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>RPC SSL options: (see the Quark Wiki for SSL setup instructions)</source>
+        <source>RPC SSL options: (see the C-Note Wiki for SSL setup instructions)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3132,11 +3132,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>SSL options: (see the Quark Wiki for SSL setup instructions)</source>
-        <translation>Параметри SSL: (див. Quark Wiki для налаштування SSL)</translation>
+        <source>SSL options: (see the C-Note Wiki for SSL setup instructions)</source>
+        <translation>Параметри SSL: (див. C-Note Wiki для налаштування SSL)</translation>
     </message>
     <message>
-        <source>Send command to Quark Core</source>
+        <source>Send command to C-Note Core</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3172,7 +3172,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
         <translation>Вказати тайм-аут підключення у мілісекундах (типово: 5000)</translation>
     </message>
     <message>
-        <source>Start Quark Core Daemon</source>
+        <source>Start C-Note Core Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3288,11 +3288,11 @@ for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.co
         <translation>Помилка при завантаженні wallet.dat: Гаманець пошкоджено</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Quark</source>
+        <source>Error loading wallet.dat: Wallet requires newer version of C-Note</source>
         <translation>Помилка при завантаженні wallet.dat: Гаманець потребує новішої версії Біткоін-клієнта</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Quark to complete</source>
+        <source>Wallet needed to be rewritten: restart C-Note to complete</source>
         <translation>Потрібно перезаписати гаманець: перезапустіть Біткоін-клієнт для завершення</translation>
     </message>
     <message>

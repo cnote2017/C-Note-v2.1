@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2013 The Sifcoin developers
-// Copyright (c) 2013-2015 The Quarkcoin developers
-// Copyright (c) 2009-2015 The Bitcoin developers
+// Copyright (c) 2013-2015 The C-Note developers
+// Copyright (c) 2009-2015 The Fasbit Inc.
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -29,7 +29,7 @@ using namespace std;
 using namespace boost;
 
 #if defined(NDEBUG)
-# error "Quark cannot be compiled without assertions."
+# error "C-Note cannot be compiled without assertions."
 #endif
 
 //
@@ -72,7 +72,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Quarkcoin Signed Message:\n";
+const string strMessageMagic = "C-Note Signed Message:\n";
 
 // Internal stuff
 namespace {
@@ -1182,26 +1182,20 @@ void static PruneOrphanBlocks()
     mapOrphanBlocks.erase(hash);
 }
 
-static const int64_t nGenesisBlockRewardCoin = 1 * COIN;
-static const int64_t nBlockRewardStartCoin = 2048 * COIN;
-static const int64_t nBlockRewardMinimumCoin = 1 * COIN;
+static const int64_t nGenesisBlockRewardCoin = .0001 * COIN;
+static const int64_t nBlockRewardStartCoin = 100 * COIN;
+static const int64_t nBlockRewardMinimumCoin = 100 * COIN;
 
-static const int64_t nTargetTimespan = 10 * 60; // 10 minutes
-static const int64_t nTargetSpacing = 30; // 30 seconds
-static const int64_t nInterval = nTargetTimespan / nTargetSpacing; // 20 blocks
+static const int64_t nTargetTimespan = 100 * 100; // 10,000 seconds
+static const int64_t nTargetSpacing = 100; // 100 seconds
+static const int64_t nInterval = nTargetTimespan / nTargetSpacing; // 100 blocks
 
 int64_t GetBlockValue(int nHeight, int64_t nFees)
 {
-    if (nHeight == 0)
-    {
-        return nGenesisBlockRewardCoin;
-    }
-    
+	if (nHeight < 1000) {return nGenesisBlockRewardCoin;}
+	
     int64_t nSubsidy = nBlockRewardStartCoin;
 
-    // Subsidy is cut in half every 60480 blocks (21 days)
-    nSubsidy >>= min((nHeight / 60480), 63);
-    
     // Minimum subsidy
     if (nSubsidy < nBlockRewardMinimumCoin)
     {

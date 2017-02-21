@@ -49,9 +49,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Quarks");
-    case cBTC: return QString("Centum-Quarks (1 / 100)");
-    case mBTC: return QString("Milli-Quarks (1 / 1,000)");
+    case BTC: return QString("C-Notes");
+    case cBTC: return QString("Centum-C-Notes (1 / 100)");
+    case mBTC: return QString("Milli-C-Notes (1 / 1,000)");
     default: return QString("???");
     }
 }

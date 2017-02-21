@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About Quark Core</source>
-        <translation>Om Quark Core</translation>
+        <source>About C-Note Core</source>
+        <translation>Om C-Note Core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;Quark Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Quark Core&lt;/b&gt; version</translation>
+        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;C-Note Core&lt;/b&gt; version</translation>
     </message>
     <message>
         <source>
@@ -28,8 +28,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Ophavsret</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
-        <translation>Udviklerne af Quark Core</translation>
+        <source>The C-Note Core developers</source>
+        <translation>Udviklerne af C-Note Core</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -103,12 +103,12 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Modtagelsesadresser</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
-        <translation>Disse er dine Quark-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender quarks.</translation>
+        <source>These are your C-Note addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <translation>Disse er dine C-Note-adresser for at sende betalinger. Tjek altid beløb og modtageradresse, inden du sender quarks.</translation>
     </message>
     <message>
-        <source>These are your Quark addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
-        <translation>Dette er dine Quark-adresser til at modtage betalinger med. Det anbefales are bruge en ny modtagelsesadresse for hver transaktion.</translation>
+        <source>These are your C-Note addresses for receiving payments. It is recommended to use a new receiving address for each transaction.</source>
+        <translation>Dette er dine C-Note-adresser til at modtage betalinger med. Det anbefales are bruge en ny modtagelsesadresse for hver transaktion.</translation>
     </message>
     <message>
         <source>Copy &amp;Label</source>
@@ -225,8 +225,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Tegnebog krypteret</translation>
     </message>
     <message>
-        <source>Quark will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
-        <translation>Quark vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine quarks fuldt ud mod at blive stjålet af malware på din computer.</translation>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
+        <translation>C-Note vil nu lukke for at gennemføre krypteringsprocessen. Husk på, at kryptering af din tegnebog vil ikke beskytte dine quarks fuldt ud mod at blive stjålet af malware på din computer.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -296,8 +296,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Afslut program</translation>
     </message>
     <message>
-        <source>Show information about Quark</source>
-        <translation>Vis informationer om Quark</translation>
+        <source>Show information about C-Note</source>
+        <translation>Vis informationer om C-Note</translation>
     </message>
     <message>
         <source>About &amp;Qt</source>
@@ -344,12 +344,12 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Genindekserer blokke på disken …</translation>
     </message>
     <message>
-        <source>Send coins to a Quark address</source>
-        <translation>Send quarks til en Quark-adresse</translation>
+        <source>Send coins to a C-Note address</source>
+        <translation>Send quarks til en C-Note-adresse</translation>
     </message>
     <message>
-        <source>Modify configuration options for Quark</source>
-        <translation>Redigér konfigurationsindstillinger for Quark</translation>
+        <source>Modify configuration options for C-Note</source>
+        <translation>Redigér konfigurationsindstillinger for C-Note</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -372,8 +372,8 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Verificér besked …</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -400,12 +400,12 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Kryptér de private nøgler, der hører til din tegnebog</translation>
     </message>
     <message>
-        <source>Sign messages with your Quark addresses to prove you own them</source>
-        <translation>Underskriv beskeder med dine Quark-adresser for at bevise, at de tilhører dig</translation>
+        <source>Sign messages with your C-Note addresses to prove you own them</source>
+        <translation>Underskriv beskeder med dine C-Note-adresser for at bevise, at de tilhører dig</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Quark addresses</source>
-        <translation>Verificér beskeder for at sikre, at de er underskrevet med de angivne Quark-adresser</translation>
+        <source>Verify messages to ensure they were signed with specified C-Note addresses</source>
+        <translation>Verificér beskeder for at sikre, at de er underskrevet med de angivne C-Note-adresser</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -428,16 +428,16 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>[testnetværk]</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>C-Note Core</source>
+        <translation>C-Note Core</translation>
     </message>
     <message>
         <source>Request payments (generates QR codes and quark: URIs)</source>
         <translation>Forespørg betalinger (genererer QR-koder og &quot;quark:&quot;-URI&apos;er)</translation>
     </message>
     <message>
-        <source>&amp;About Quark Core</source>
-        <translation>Om Quark Core</translation>
+        <source>&amp;About C-Note Core</source>
+        <translation>Om C-Note Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -456,16 +456,16 @@ Produktet indeholder software som er udviklet af OpenSSL Project til brug i Open
         <translation>Tilvalg for kommandolinje</translation>
     </message>
     <message>
-        <source>Show the Quark Core help message to get a list with possible Quark command-line options</source>
-        <translation>Vis Quark Core hjælpebesked for at få en liste over mulige tilvalg for Quark kommandolinje</translation>
+        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
+        <translation>Vis C-Note Core hjælpebesked for at få en liste over mulige tilvalg for C-Note kommandolinje</translation>
     </message>
     <message>
-        <source>Quark client</source>
+        <source>C-Note client</source>
         <translation>Bitcoin-klient</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Quark network</source>
-        <translation><numerusform>%n aktiv forbindelse til Quark-netværket</numerusform><numerusform>%n aktive forbindelser til Quark-netværket</numerusform></translation>
+        <source>%n active connection(s) to C-Note network</source>
+        <translation><numerusform>%n aktiv forbindelse til C-Note-netværket</numerusform><numerusform>%n aktive forbindelser til C-Note-netværket</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -560,8 +560,8 @@ Adresse: %4
         <translation>Tegnebog er &lt;b&gt;krypteret&lt;/b&gt; og i øjeblikket &lt;b&gt;låst&lt;/b&gt;</translation>
     </message>
     <message>
-        <source>A fatal error occurred. Quark can no longer continue safely and will quit.</source>
-        <translation>Der opstod en fatal fejl. Quark kan ikke længere fortsætte sikkert og vil afslutte.</translation>
+        <source>A fatal error occurred. C-Note can no longer continue safely and will quit.</source>
+        <translation>Der opstod en fatal fejl. C-Note kan ikke længere fortsætte sikkert og vil afslutte.</translation>
     </message>
 </context>
 <context>
@@ -845,8 +845,8 @@ Adresse: %4
         <translation>Den indtastede adresse &quot;%1&quot; er allerede i adressebogen.</translation>
     </message>
     <message>
-        <source>The entered address &quot;%1&quot; is not a valid Quark address.</source>
-        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig Quark-adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid C-Note address.</source>
+        <translation>Den indtastede adresse &quot;%1&quot; er ikke en gyldig C-Note-adresse.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -883,12 +883,12 @@ Adresse: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Quark Core - Command-line options</source>
-        <translation>Quark Core – tilvalg for kommandolinje</translation>
+        <source>C-Note Core - Command-line options</source>
+        <translation>C-Note Core – tilvalg for kommandolinje</translation>
     </message>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>C-Note Core</source>
+        <translation>C-Note Core</translation>
     </message>
     <message>
         <source>version</source>
@@ -934,16 +934,16 @@ Adresse: %4
         <translation>Velkommen</translation>
     </message>
     <message>
-        <source>Welcome to Quark Core.</source>
-        <translation>Velkommen til Quark Core.</translation>
+        <source>Welcome to C-Note Core.</source>
+        <translation>Velkommen til C-Note Core.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where Quark Core will store its data.</source>
-        <translation>Siden dette er første gang, programmet startes, kan du vælge, hvor Quark Core skal gemme sin data.</translation>
+        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
+        <translation>Siden dette er første gang, programmet startes, kan du vælge, hvor C-Note Core skal gemme sin data.</translation>
     </message>
     <message>
-        <source>Quark Core will download and store a copy of the Quark block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>Quark Core vil downloade og gemme et kopi af Quark-blokkæden. Mindst %1 GB data vil blive gemt i denne mappe, og den vil vokse over tid. Tegnebogen vil også blive gemt i denne mappe.</translation>
+        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>C-Note Core vil downloade og gemme et kopi af C-Note-blokkæden. Mindst %1 GB data vil blive gemt i denne mappe, og den vil vokse over tid. Tegnebogen vil også blive gemt i denne mappe.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -954,8 +954,8 @@ Adresse: %4
         <translation>Brug tilpasset mappe for data:</translation>
     </message>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; can not be created.</source>
@@ -1016,12 +1016,12 @@ Adresse: %4
         <translation>Betal transaktionsgebyr</translation>
     </message>
     <message>
-        <source>Automatically start Quark after logging in to the system.</source>
-        <translation>Start Quark automatisk, når der logges ind på systemet.</translation>
+        <source>Automatically start C-Note after logging in to the system.</source>
+        <translation>Start C-Note automatisk, når der logges ind på systemet.</translation>
     </message>
     <message>
-        <source>&amp;Start Quark on system login</source>
-        <translation>Start Quark ved systemlogin</translation>
+        <source>&amp;Start C-Note on system login</source>
+        <translation>Start C-Note ved systemlogin</translation>
     </message>
     <message>
         <source>Size of &amp;database cache</source>
@@ -1036,8 +1036,8 @@ Adresse: %4
         <translation>Antallet af scriptverificeringstråde</translation>
     </message>
     <message>
-        <source>Connect to the Quark network through a SOCKS proxy.</source>
-        <translation>Forbind til Quark-netværket gennem en SOCKS-proxy.</translation>
+        <source>Connect to the C-Note network through a SOCKS proxy.</source>
+        <translation>Forbind til C-Note-netværket gennem en SOCKS-proxy.</translation>
     </message>
     <message>
         <source>&amp;Connect through SOCKS proxy (default proxy):</source>
@@ -1096,8 +1096,8 @@ Adresse: %4
         <translation>Brug ubekræftede byttepenge</translation>
     </message>
     <message>
-        <source>Automatically open the Quark client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Åbn automatisk Quark-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
+        <source>Automatically open the C-Note client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Åbn automatisk C-Note-klientens port på routeren. Dette virker kun, når din router understøtter UPnP, og UPnP er aktiveret.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1152,8 +1152,8 @@ Adresse: %4
         <translation>Sprog for brugergrænseflade:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Quark.</source>
-        <translation>Sproget for brugergrænsefladen kan angives her. Denne indstilling træder først i kraft, når Quark genstartes.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting C-Note.</source>
+        <translation>Sproget for brugergrænsefladen kan angives her. Denne indstilling træder først i kraft, når C-Note genstartes.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -1164,8 +1164,8 @@ Adresse: %4
         <translation>Vælg standard for underopdeling af enhed, som skal vises i brugergrænsefladen og ved afsendelse af quarks.</translation>
     </message>
     <message>
-        <source>Whether to show Quark addresses in the transaction list or not.</source>
-        <translation>Afgør hvorvidt Quark-adresser skal vises i transaktionslisten eller ej.</translation>
+        <source>Whether to show C-Note addresses in the transaction list or not.</source>
+        <translation>Afgør hvorvidt C-Note-adresser skal vises i transaktionslisten eller ej.</translation>
     </message>
     <message>
         <source>&amp;Display addresses in transaction list</source>
@@ -1219,8 +1219,8 @@ Adresse: %4
         <translation>Formular</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Quark network after a connection is established, but this process has not completed yet.</source>
-        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med Quark-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the C-Note network after a connection is established, but this process has not completed yet.</source>
+        <translation>Den viste information kan være forældet. Din tegnebog synkroniserer automatisk med C-Note-netværket, når en forbindelse etableres, men denne proces er ikke gennemført endnu.</translation>
     </message>
     <message>
         <source>Wallet</source>
@@ -1274,8 +1274,8 @@ Adresse: %4
         <translation>URI-håndtering</translation>
     </message>
     <message>
-        <source>URI can not be parsed! This can be caused by an invalid Quark address or malformed URI parameters.</source>
-        <translation>URI kan ikke fortolkes! Dette kan skyldes en ugyldig Quark-adresse eller misdannede URI-parametre.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid C-Note address or malformed URI parameters.</source>
+        <translation>URI kan ikke fortolkes! Dette kan skyldes en ugyldig C-Note-adresse eller misdannede URI-parametre.</translation>
     </message>
     <message>
         <source>Requested payment amount of %1 is too small (considered dust).</source>
@@ -1341,8 +1341,8 @@ Adresse: %4
 <context>
     <name>QObject</name>
     <message>
-        <source>Quark</source>
-        <translation>Quark</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
         <source>Error: Specified data directory &quot;%1&quot; does not exist.</source>
@@ -1357,12 +1357,12 @@ Adresse: %4
         <translation>Fejl: Ugyldig kombination af -regtest og -testnet.</translation>
     </message>
     <message>
-        <source>Quark Core didn&apos;t yet exit safely...</source>
-        <translation>Quark Core blev ikke afsluttet på sikker vis …</translation>
+        <source>C-Note Core didn&apos;t yet exit safely...</source>
+        <translation>C-Note Core blev ikke afsluttet på sikker vis …</translation>
     </message>
     <message>
-        <source>Enter a Quark address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Indtast en Quark-adresse (fx QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
+        <translation>Indtast en C-Note-adresse (fx QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
     </message>
 </context>
 <context>
@@ -1483,16 +1483,16 @@ Adresse: %4
         <translation>Fejlsøgningslogfil</translation>
     </message>
     <message>
-        <source>Open the Quark debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Åbn Quark-fejlsøgningslogfilen fra den nuværende datamappe. Dette kan tage nogle få sekunder for store logfiler.</translation>
+        <source>Open the C-Note debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Åbn C-Note-fejlsøgningslogfilen fra den nuværende datamappe. Dette kan tage nogle få sekunder for store logfiler.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Ryd konsol</translation>
     </message>
     <message>
-        <source>Welcome to the Quark RPC console.</source>
-        <translation>Velkommen til Quark RPC-konsollen.</translation>
+        <source>Welcome to the C-Note RPC console.</source>
+        <translation>Velkommen til C-Note RPC-konsollen.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1554,8 +1554,8 @@ Adresse: %4
         <translation>Genbrug en eksisterende modtagelsesadresse (anbefales ikke)</translation>
     </message>
     <message>
-        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the Quark network.</source>
-        <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes med betalingen over Quark-netværket.</translation>
+        <source>An optional message to attach to the payment request, which will be displayed when the request is opened. Note: The message will not be sent with the payment over the C-Note network.</source>
+        <translation>En valgfri besked, der føjes til betalingsanmodningen, og som vil vises, når anmodningen åbnes. Bemærk: Beskeden vil ikke sendes med betalingen over C-Note-netværket.</translation>
     </message>
     <message>
         <source>An optional label to associate with the new receiving address.</source>
@@ -1867,8 +1867,8 @@ Adresse: %4
         <translation>Transaktionen blev afvist! Dette kan ske, hvis nogle af dine quarks i din tegnebog allerede er brugt, som hvis du brugte en kopi af wallet.dat og dine quarks er blevet brugt i kopien, men ikke er markeret som brugt her.</translation>
     </message>
     <message>
-        <source>Warning: Invalid Quark address</source>
-        <translation>Advarsel: Ugyldig Quark-adresse</translation>
+        <source>Warning: Invalid C-Note address</source>
+        <translation>Advarsel: Ugyldig C-Note-adresse</translation>
     </message>
     <message>
         <source>(no label)</source>
@@ -1954,8 +1954,8 @@ Adresse: %4
         <translation>Indtast et mærkat for denne adresse for at føje den til listen over brugte adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Quark network.</source>
-        <translation>En besked, som blev føjet til &quot;bitcon:&quot;-URI&apos;en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over Quark-netværket.</translation>
+        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <translation>En besked, som blev føjet til &quot;bitcon:&quot;-URI&apos;en, som vil gemmes med transaktionen til din reference. Bemærk: Denne besked vil ikke blive sendt over C-Note-netværket.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1973,8 +1973,8 @@ Adresse: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>Quark Core is shutting down...</source>
-        <translation>Quark Core lukker ned …</translation>
+        <source>C-Note Core is shutting down...</source>
+        <translation>C-Note Core lukker ned …</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -1993,7 +1993,7 @@ Adresse: %4
     </message>
     <message>
         <source>You can sign messages with your addresses to prove you own them. Be careful not to sign anything vague, as phishing attacks may try to trick you into signing your identity over to them. Only sign fully-detailed statements you agree to.</source>
-        <translation>Du kan underskrive beskeder med dine Quark-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
+        <translation>Du kan underskrive beskeder med dine C-Note-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
     </message>
     <message>
         <source>The address to sign the message with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
@@ -2028,8 +2028,8 @@ Adresse: %4
         <translation>Kopiér den nuværende underskrift til systemets udklipsholder</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Quark address</source>
-        <translation>Underskriv denne besked for at bevise, at Quark-adressen tilhører dig</translation>
+        <source>Sign the message to prove you own this C-Note address</source>
+        <translation>Underskriv denne besked for at bevise, at C-Note-adressen tilhører dig</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -2056,8 +2056,8 @@ Adresse: %4
         <translation>Bitcoin-adressen som beskeden er underskrevet med (fx QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Quark address</source>
-        <translation>Verificér beskeden for at sikre, at den er underskrevet med den angivne Quark-adresse</translation>
+        <source>Verify the message to ensure it was signed with the specified C-Note address</source>
+        <translation>Verificér beskeden for at sikre, at den er underskrevet med den angivne C-Note-adresse</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -2068,8 +2068,8 @@ Adresse: %4
         <translation>Nulstil alle &quot;verificér besked&quot;-felter</translation>
     </message>
     <message>
-        <source>Enter a Quark address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Indtast en Quark-adresse (fx QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
+        <translation>Indtast en C-Note-adresse (fx QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
@@ -2127,12 +2127,12 @@ Adresse: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Quark Core</source>
-        <translation>Quark Core</translation>
+        <source>C-Note Core</source>
+        <translation>C-Note Core</translation>
     </message>
     <message>
-        <source>The Quark Core developers</source>
-        <translation>Udviklerne af Quark Core</translation>
+        <source>The C-Note Core developers</source>
+        <translation>Udviklerne af C-Note Core</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2658,8 +2658,8 @@ Adresse: %4
         <translation>Acceptér kommandolinje- og JSON-RPC-kommandoer</translation>
     </message>
     <message>
-        <source>Quark Core RPC client version</source>
-        <translation>Quark Core RPC-klient-version</translation>
+        <source>C-Note Core RPC client version</source>
+        <translation>C-Note Core RPC-klient-version</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2683,7 +2683,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com
 </source>
         <translation>%s, du skal angive en RPC-adgangskode i konfigurationsfilen:
 %s
@@ -2694,7 +2694,7 @@ rpcpassword=%s
 Brugernavnet og adgangskode MÅ IKKE være det samme.
 Hvis filen ikke eksisterer, opret den og giv ingen andre end ejeren læserettighed.
 Det anbefales også at angive alertnotify, så du påmindes om problemer;
-fx: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
+fx: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com
 </translation>
     </message>
     <message>
@@ -2766,8 +2766,8 @@ fx: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
         <translation>Dette er en foreløbig testudgivelse - brug på eget ansvar - brug ikke til udvinding eller handelsprogrammer</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. Quark Core is probably already running.</source>
-        <translation>Ikke i stand til at tildele til %s på denne computer. Quark Core kører sansynligvis allerede.</translation>
+        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
+        <translation>Ikke i stand til at tildele til %s på denne computer. C-Note Core kører sansynligvis allerede.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2778,8 +2778,8 @@ fx: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
         <translation>Advarsel: -paytxfee er sat meget højt! Dette er det gebyr du vil betale, hvis du sender en transaktion.</translation>
     </message>
     <message>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Quark will not work properly.</source>
-        <translation>Advarsel: Undersøg venligst, at din computers dato og klokkeslæt er korrekt indstillet! Hvis der er fejl i disse, vil Quark ikke fungere korrekt.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong C-Note will not work properly.</source>
+        <translation>Advarsel: Undersøg venligst, at din computers dato og klokkeslæt er korrekt indstillet! Hvis der er fejl i disse, vil C-Note ikke fungere korrekt.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2814,8 +2814,8 @@ fx: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
         <translation>Forsøg at genskabe private nøgler fra ødelagt wallet.dat</translation>
     </message>
     <message>
-        <source>Quark Core Daemon</source>
-        <translation>Quark Core-tjeneste</translation>
+        <source>C-Note Core Daemon</source>
+        <translation>C-Note Core-tjeneste</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3058,8 +3058,8 @@ fx: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
         <translation>Importerer blokke fra ekstern blk000??.dat fil</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. Quark Core is probably already running.</source>
-        <translation>Kan ikke opnå en lås på datamappe %s. Quark Core kører sansynligvis allerede.</translation>
+        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
+        <translation>Kan ikke opnå en lås på datamappe %s. C-Note Core kører sansynligvis allerede.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3122,8 +3122,8 @@ fx: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
         <translation>Udskriv bloktræ under startop (standard: 0)</translation>
     </message>
     <message>
-        <source>RPC SSL options: (see the Quark Wiki for SSL setup instructions)</source>
-        <translation>Tilvalg for RPC SSL: (se Quark Wiki for instruktioner i SSL-opstart)</translation>
+        <source>RPC SSL options: (see the C-Note Wiki for SSL setup instructions)</source>
+        <translation>Tilvalg for RPC SSL: (se C-Note Wiki for instruktioner i SSL-opstart)</translation>
     </message>
     <message>
         <source>RPC server options:</source>
@@ -3142,12 +3142,12 @@ fx: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
         <translation>Kør en tråd for at rydde tegnebog periodisk (standard: 1)</translation>
     </message>
     <message>
-        <source>SSL options: (see the Quark Wiki for SSL setup instructions)</source>
-        <translation>SSL-indstillinger: (se Quark Wiki for SSL-opsætningsinstruktioner)</translation>
+        <source>SSL options: (see the C-Note Wiki for SSL setup instructions)</source>
+        <translation>SSL-indstillinger: (se C-Note Wiki for SSL-opsætningsinstruktioner)</translation>
     </message>
     <message>
-        <source>Send command to Quark Core</source>
-        <translation>Send kommando til Quark Core</translation>
+        <source>Send command to C-Note Core</source>
+        <translation>Send kommando til C-Note Core</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3182,8 +3182,8 @@ fx: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
         <translation>Angiv tilslutningstimeout i millisekunder (standard: 5000)</translation>
     </message>
     <message>
-        <source>Start Quark Core Daemon</source>
-        <translation>Start Quark Core-tjeneste</translation>
+        <source>Start C-Note Core Daemon</source>
+        <translation>Start C-Note Core-tjeneste</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -3298,12 +3298,12 @@ fx: alertnotify=echo %%s | mail -s &quot;Quark Alert&quot; admin@foo.com
         <translation>Fejl ved indlæsning af wallet.dat: Tegnebog ødelagt</translation>
     </message>
     <message>
-        <source>Error loading wallet.dat: Wallet requires newer version of Quark</source>
-        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af Quark</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of C-Note</source>
+        <translation>Fejl ved indlæsning af wallet.dat: Tegnebog kræver en nyere version af C-Note</translation>
     </message>
     <message>
-        <source>Wallet needed to be rewritten: restart Quark to complete</source>
-        <translation>Det var nødvendigt at genskrive tegnebogen: genstart Quark for at gennemføre</translation>
+        <source>Wallet needed to be rewritten: restart C-Note to complete</source>
+        <translation>Det var nødvendigt at genskrive tegnebogen: genstart C-Note for at gennemføre</translation>
     </message>
     <message>
         <source>Error loading wallet.dat</source>

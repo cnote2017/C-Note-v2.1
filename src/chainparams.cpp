@@ -1,5 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2009-2014 The Fasbit Inc.
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -24,13 +24,13 @@ unsigned int pnSeed[] =
     0x01020304, 
 };
 
-static const unsigned int timeMainGenesisBlock = 1374408079;
-uint256 hashMainGenesisBlock("0x00000c257b93a36e9a4318a64398d661866341331a984e2b486414fc5bb16ccd");
+static const unsigned int timeMainGenesisBlock = 1387677831;
+uint256 hashMainGenesisBlock("0x00000761d34428953a5de9b39e85404a15dec719f196d4385cb0fd79ab55d24e");
 static CBigNum bnMainProofOfWorkLimit(~uint256(0) >> 20);
 
-static const int64_t nGenesisBlockRewardCoin = 1 * COIN;
-static const int64_t nBlockRewardStartCoin = 2048 * COIN;
-static const int64_t nBlockRewardMinimumCoin = 1 * COIN;
+static const int64_t nGenesisBlockRewardCoin = .0001 * COIN;
+static const int64_t nBlockRewardStartCoin = 100 * COIN;
+static const int64_t nBlockRewardMinimumCoin = 100 * COIN;
 
 class CMainParams : public CChainParams {
 public:
@@ -38,19 +38,19 @@ public:
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
-        pchMessageStart[0] = 0xfe;
-        pchMessageStart[1] = 0xa5;
-        pchMessageStart[2] = 0x03;
-        pchMessageStart[3] = 0xdd;
+        pchMessageStart[0] = 0x05;
+        pchMessageStart[1] = 0xfe;
+        pchMessageStart[2] = 0xa5;
+        pchMessageStart[3] = 0x03;
         vAlertPubKey = ParseHex("0493e6dc310a0e444cfb20f3234a238f77699806d47909a42481010c5ce68ff04d3babc959cd037bd3aa6ded929f2b9b4aa2f626786cd7f8495e5bb61e9cfebbc4");
-        nDefaultPort = 11973;
-        nRPCPort = 8372;
+        nDefaultPort = 18491;
+        nRPCPort = 18460;
         bnProofOfWorkLimit = bnMainProofOfWorkLimit;
         nSubsidyHalvingInterval = 60480;
 
         // Build the genesis block. Note that the output of the genesis coinbase cannot
         // be spent as it did not originally exist in the database.
-        const char* pszTimestamp = "21 July 2013, The Guardian, Tesco boss says cheap food era is over";
+		const char* pszTimestamp = "'tis all about tha Benjamins.";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
@@ -63,11 +63,11 @@ public:
         genesis.nVersion = 112;
         genesis.nTime    = timeMainGenesisBlock;
         genesis.nBits    = bnMainProofOfWorkLimit.GetCompact();
-        genesis.nNonce   = 12058113;
+		genesis.nNonce   = 114695;
 
         hashGenesisBlock = genesis.GetHash();
         assert(hashGenesisBlock == hashMainGenesisBlock);
-        assert(genesis.hashMerkleRoot == uint256("0x868b2fb28cb1a0b881480cc85eb207e29e6ae75cdd6d26688ed34c2d2d23c776"));
+        assert(genesis.hashMerkleRoot == uint256("0x0d7647d5755faf897a2416ab51b65ad2f3608cd504610efe61abc464414db7b5"));
 
         vSeeds.push_back(CDNSSeedData("seed1.qrknet.info", "seed1.qrknet.info"));
         vSeeds.push_back(CDNSSeedData("seed2.qrknet.info", "seed2.qrknet.info"));
@@ -122,13 +122,13 @@ public:
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
-        pchMessageStart[0] = 0x01;
-        pchMessageStart[1] = 0x1a;
-        pchMessageStart[2] = 0x39;
-        pchMessageStart[3] = 0xf7;
+        pchMessageStart[0] = 0x05;
+        pchMessageStart[1] = 0xfe;
+        pchMessageStart[2] = 0xa5;
+        pchMessageStart[3] = 0x03;
         vAlertPubKey = ParseHex("04218bc3f08237baa077cb1b0e5a81695fcf3f5b4e220b4ad274d05a31d762dd4e191efa7b736a24a32d6fd9ac1b5ebb2787c70e9dfad0016a8b32f7bd2520dbd5");
-        nDefaultPort = 21973;
-        nRPCPort = 18372;
+        nDefaultPort = 28491;
+        nRPCPort = 18460;
         strDataDir = "testnet3";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.

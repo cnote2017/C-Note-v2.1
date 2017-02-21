@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2013 The Bitcoin developers
+// Copyright (c) 2009-2013 The Fasbit Inc.
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -86,11 +86,11 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("Quark Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("C-Note Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  quarkd [options]                     " + _("Start Quark Core Daemon") + "\n" +
+                  "  quarkd [options]                     " + _("Start C-Note Core Daemon") + "\n" +
                 _("Usage (deprecated, use quark-cli):") + "\n" +
-                  "  quarkd [options] <command> [params]  " + _("Send command to Quark Core") + "\n" +
+                  "  quarkd [options] <command> [params]  " + _("Send command to C-Note Core") + "\n" +
                   "  quarkd [options] help                " + _("List commands") + "\n" +
                   "  quarkd [options] help <command>      " + _("Get help for a command") + "\n";
 
@@ -116,7 +116,7 @@ bool AppInit(int argc, char* argv[])
         fDaemon = GetBoolArg("-daemon", false);
         if (fDaemon)
         {
-            fprintf(stdout, "Quark server starting\n");
+            fprintf(stdout, "C-Note server starting\n");
 
             // Daemonize
             pid_t pid = fork();

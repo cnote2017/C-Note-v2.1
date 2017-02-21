@@ -1,5 +1,5 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Bitcoin developers
+// Copyright (c) 2009-2014 The Fasbit Inc.
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -955,13 +955,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Quarkcoin
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Quarkcoin
-    // Mac: ~/Library/Application Support/Quarkcoin
-    // Unix: ~/.quarkcoin
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\C-Note
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\C-Note
+    // Mac: ~/Library/Application Support/C-Note
+    // Unix: ~/.c-note
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Quarkcoin";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "C-Note";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -973,10 +973,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     TryCreateDirectory(pathRet);
-    return pathRet / "Quarkcoin";
+    return pathRet / "C-Note";
 #else
     // Unix
-    return pathRet / ".quarkcoin";
+    return pathRet / ".c-note";
 #endif
 #endif
 }
@@ -1025,7 +1025,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "quarkcoin.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "c-note.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1035,14 +1035,14 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 {
     boost::filesystem::ifstream streamConfig(GetConfigFile());
     if (!streamConfig.good())
-        return; // No quarkcoin.conf file is OK
+        return; // No c-note.conf file is OK
 
     set<string> setOptions;
     setOptions.insert("*");
 
     for (boost::program_options::detail::config_file_iterator it(streamConfig, setOptions), end; it != end; ++it)
     {
-        // Don't overwrite existing settings so command line settings override quarkcoin.conf
+        // Don't overwrite existing settings so command line settings override c-note.conf
         string strKey = string("-") + it->string_key;
         if (mapSettingsRet.count(strKey) == 0)
         {
@@ -1291,7 +1291,7 @@ void AddTimeData(const CNetAddr& ip, int64_t nTime)
                 if (!fMatch)
                 {
                     fDone = true;
-                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong Quark will not work properly.");
+                    string strMessage = _("Warning: Please check that your computer's date and time are correct! If your clock is wrong C-Note will not work properly.");
                     strMiscWarning = strMessage;
                     LogPrintf("*** %s\n", strMessage);
                     uiInterface.ThreadSafeMessageBox(strMessage, "", CClientUIInterface::MSG_WARNING);
