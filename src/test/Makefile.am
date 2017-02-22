@@ -2,7 +2,7 @@ include $(top_srcdir)/src/Makefile.include
 
 AM_CPPFLAGS += -I$(top_srcdir)/src
 
-bin_PROGRAMS = test_c-note
+bin_PROGRAMS = test_cnote
 
 TESTS = test_c-note
 

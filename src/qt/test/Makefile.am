@@ -5,7 +5,7 @@ AM_CPPFLAGS += -I$(top_srcdir)/src \
   -I$(top_builddir)/src/qt \
   $(PROTOBUF_CFLAGS) \
     $(QR_CFLAGS)
-bin_PROGRAMS = test_c-note-qt
+bin_PROGRAMS = test_cnote-qt
 TESTS = test_c-note-qt
 
 TEST_QT_MOC_CPP = moc_uritests.cpp
