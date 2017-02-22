@@ -13,11 +13,11 @@ endif
 bin_PROGRAMS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += c-noted
+  bin_PROGRAMS += cnoted
 endif
 
 if BUILD_BITCOIN_CLI
-  bin_PROGRAMS += c-note-cli
+  bin_PROGRAMS += cnote-cli
 endif
 
 SUBDIRS = . $(BUILD_QT) $(BUILD_TEST)
