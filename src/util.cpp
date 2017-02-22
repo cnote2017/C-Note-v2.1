@@ -928,7 +928,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "quark";
+    const char* pszModule = "c-note";
 #endif
     if (pex)
         return strprintf(
@@ -1058,7 +1058,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "quarkd.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "c-noted.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

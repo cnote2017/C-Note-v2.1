@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About C-Note Core</source>
+        <source>About C-Note</source>
         <translation>비트코인 코어 소개</translation>
     </message>
     <message>
-        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;C-Note&lt;/b&gt; version</source>
         <translation>&lt;b&gt;비트코인 코어&lt;/b&gt; 버젼</translation>
     </message>
     <message>
@@ -28,7 +28,7 @@ MIT/X11 프로그램 라이선스에 따라 배포합니다. COPYING 또는 http
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
+        <source>The C-Note developers</source>
         <translation>비트코인코어 개발자들</translation>
     </message>
     <message>
@@ -225,7 +225,7 @@ MIT/X11 프로그램 라이선스에 따라 배포합니다. COPYING 또는 http
         <translation>지갑 암호화 완료</translation>
     </message>
     <message>
-        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</source>
         <translation>암호화 처리 과정을 끝내기 위해 비트코인을 닫겠습니다. 지갑 암호화는 컴퓨터로의 멀웨어 감염으로 인한 비트코인 도난을 완전히 막아주지 못함을 기억하십시오.</translation>
     </message>
     <message>
@@ -428,15 +428,15 @@ MIT/X11 프로그램 라이선스에 따라 배포합니다. COPYING 또는 http
         <translation>[테스트넷]</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>비트코인코어</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
+        <source>Request payments (generates QR codes and c-note: URIs)</source>
         <translation>지불 요청하기 (QR코드와 비트코인이 생성됩니다: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About C-Note Core</source>
+        <source>&amp;About C-Note</source>
         <translation>&amp;비트코인 코어 소개</translation>
     </message>
     <message>
@@ -448,7 +448,7 @@ MIT/X11 프로그램 라이선스에 따라 배포합니다. COPYING 또는 http
         <translation>한번 이상 사용된 받는 주소와 주소 제목의 목록을 보여줍니다.</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
+        <source>Open a c-note: URI or payment request</source>
         <translation>비트코인: URI 또는 지불요청 열기</translation>
     </message>
     <message>
@@ -456,7 +456,7 @@ MIT/X11 프로그램 라이선스에 따라 배포합니다. COPYING 또는 http
         <translation>명령어-라인 옵션</translation>
     </message>
     <message>
-        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
+        <source>Show the C-Note help message to get a list with possible C-Note command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -883,11 +883,11 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>C-Note Core - Command-line options</source>
+        <source>C-Note - Command-line options</source>
         <translation>비트코인 코어 - 명령어-라인 옵션</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>비트코인코어</translation>
     </message>
     <message>
@@ -934,15 +934,15 @@ Address: %4
         <translation>환영합니다</translation>
     </message>
     <message>
-        <source>Welcome to C-Note Core.</source>
+        <source>Welcome to C-Note.</source>
         <translation>비트코인 코어에 오신것을 환영합니.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where C-Note will store its data.</source>
         <translation>프로그램이 처음으로 실행되고 있습니다. 비트코인 코어가 어디에 데이터를 저장할지 선택할 수 있습니다. </translation>
     </message>
     <message>
-        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>C-Note will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>비트코인 코어가 블럭체인의 복사본을 다운로드 저장합니다. 적어도 %1GB의 데이터가 이 폴더에 저장되며 시간이 경과할수록 점차 증가합니다. 그리고 지갑 또한 이 폴더에 저장됩니다. </translation>
     </message>
     <message>
@@ -1286,7 +1286,7 @@ Address: %4
         <translation>지불 요청 애러</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
+        <source>Cannot start c-note: click-to-pay handler</source>
         <translation>비트코인을 시작할 수 없습니다: 지급제어기를 클릭하시오</translation>
     </message>
     <message>
@@ -1357,7 +1357,7 @@ Address: %4
         <translation>오류: 잘못된 -regtest 와 -testnet의 조합입니다.</translation>
     </message>
     <message>
-        <source>C-Note Core didn&apos;t yet exit safely...</source>
+        <source>C-Note didn&apos;t yet exit safely...</source>
         <translation>비트코인 코어가 아직 안전하게 종료되지 않았습니다.</translation>
     </message>
     <message>
@@ -1954,7 +1954,7 @@ Address: %4
         <translation>사용된 주소 목록에 새 주소를 추가하기 위해 제목을 입력합니다. </translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <source>A message that was attached to the c-note: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1973,7 +1973,7 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>C-Note Core is shutting down...</source>
+        <source>C-Note is shutting down...</source>
         <translation>비트코인코어가 닫아지고 있습니다</translation>
     </message>
     <message>
@@ -2127,11 +2127,11 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>비트코인코어</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
+        <source>The C-Note developers</source>
         <translation>비트코인코어 개발자들</translation>
     </message>
     <message>
@@ -2610,12 +2610,12 @@ Address: %4
         <translation>옵션:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>설정파일 지정 (기본값: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: c-notecoin.conf)</source>
+        <translation>설정파일 지정 (기본값: c-notecoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: quarkd.pid)</source>
-        <translation>pid 파일 지정 (기본값: quarkd.pid)</translation>
+        <source>Specify pid file (default: c-noted.pid)</source>
+        <translation>pid 파일 지정 (기본값: c-noted.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2658,7 +2658,7 @@ Address: %4
         <translation>명령줄과 JSON-RPC 명령 수락</translation>
     </message>
     <message>
-        <source>C-Note Core RPC client version</source>
+        <source>C-Note RPC client version</source>
         <translation>비트코인 코어 RPC 클라이언트 버전</translation>
     </message>
     <message>
@@ -2677,7 +2677,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2758,7 +2758,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>이 빌드 버전은 정식 출시 전 테스트의 목적이며, 예기치 않은 위험과 오류가 발생할 수 있습니다. 채굴과 상점용 소프트웨어로 사용하는 것을 권하지 않습니다.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. C-Note is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2806,7 +2806,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>손상된 wallet.dat에서 개인키 복원을 시도합니다</translation>
     </message>
     <message>
-        <source>C-Note Core Daemon</source>
+        <source>C-Note Daemon</source>
         <translation>비트코인 코어 데몬</translation>
     </message>
     <message>
@@ -3014,8 +3014,8 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use quark-cli):</source>
-        <translation>사용법 (오래되었습니다. quark-cli를 사용하십시오):</translation>
+        <source>Usage (deprecated, use c-note-cli):</source>
+        <translation>사용법 (오래되었습니다. c-note-cli를 사용하십시오):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3050,7 +3050,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>외부 blk000??.dat 파일에서 블록을 가져옵니다.</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. C-Note is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3138,7 +3138,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>SSL 옵션: (SSL 설정 절차를 보혀면 비트코인 위키를 참조하십시오)</translation>
     </message>
     <message>
-        <source>Send command to C-Note Core</source>
+        <source>Send command to C-Note</source>
         <translation>비트코인 코어로 명령 보내기</translation>
     </message>
     <message>
@@ -3174,7 +3174,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>밀리초 단위로 연결 제한시간을 설정하십시오(기본값: 5000)</translation>
     </message>
     <message>
-        <source>Start C-Note Core Daemon</source>
+        <source>Start C-Note Daemon</source>
         <translation>비트코인 코어의 데몬 프로그램을 실행합니다.</translation>
     </message>
     <message>

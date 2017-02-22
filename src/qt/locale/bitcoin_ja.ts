@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About C-Note Core</source>
+        <source>About C-Note</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;C-Note&lt;/b&gt; version</source>
         <translation>&lt;b&gt;ビットコインコア&lt;/b&gt; バージョン</translation>
     </message>
     <message>
@@ -28,7 +28,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
+        <source>The C-Note developers</source>
         <translation>ビットコインコアの開発者</translation>
     </message>
     <message>
@@ -225,7 +225,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>ウォレットは暗号化されました</translation>
     </message>
     <message>
-        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</source>
         <translation>C-Note は暗号化プロセスを終了するために今すぐ終了します。あなたのコンピュータがマルウェアに感染してコインを盗まれることもあるので、暗号化してもあなたのウォレットを完全に保護できないことを覚えていてください。</translation>
     </message>
     <message>
@@ -428,15 +428,15 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>C-Note のコア</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
+        <source>Request payments (generates QR codes and c-note: URIs)</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>&amp;About C-Note Core</source>
+        <source>&amp;About C-Note</source>
         <translation>ビットコインコアについて (&amp;A)</translation>
     </message>
     <message>
@@ -448,7 +448,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>支払いを受け取るアドレスとラベルのリストを表示する</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
+        <source>Open a c-note: URI or payment request</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -456,7 +456,7 @@ MIT/X11 ソフトウェア ライセンスの下で配布されています。�
         <translation>コマンドラインオプション (&amp;C)</translation>
     </message>
     <message>
-        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
+        <source>Show the C-Note help message to get a list with possible C-Note command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -883,11 +883,11 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>C-Note Core - Command-line options</source>
+        <source>C-Note - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>C-Note のコア</translation>
     </message>
     <message>
@@ -934,15 +934,15 @@ Address: %4
         <translation>ようこそ</translation>
     </message>
     <message>
-        <source>Welcome to C-Note Core.</source>
+        <source>Welcome to C-Note.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where C-Note will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>C-Note will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1287,7 +1287,7 @@ Address: %4
         <translation>支払いのリクエストのエラーです</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
+        <source>Cannot start c-note: click-to-pay handler</source>
         <translation>C-Note を起動できません: click-to-pay handler</translation>
     </message>
     <message>
@@ -1358,7 +1358,7 @@ Address: %4
         <translation>エラー：　-regtestと-testnetは一緒にするのは無効です。</translation>
     </message>
     <message>
-        <source>C-Note Core didn&apos;t yet exit safely...</source>
+        <source>C-Note didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1955,7 +1955,7 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <source>A message that was attached to the c-note: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1974,7 +1974,7 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>C-Note Core is shutting down...</source>
+        <source>C-Note is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2128,11 +2128,11 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>C-Note のコア</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
+        <source>The C-Note developers</source>
         <translation>ビットコインコアの開発者</translation>
     </message>
     <message>
@@ -2611,12 +2611,12 @@ Address: %4
         <translation>オプション:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>設定ファイルの指定 (初期値: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: c-notecoin.conf)</source>
+        <translation>設定ファイルの指定 (初期値: c-notecoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: quarkd.pid)</source>
-        <translation>pid ファイルの指定 (初期値: quarkd.pid)</translation>
+        <source>Specify pid file (default: c-noted.pid)</source>
+        <translation>pid ファイルの指定 (初期値: c-noted.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2659,7 +2659,7 @@ Address: %4
         <translation>コマンドラインと JSON-RPC コマンドを許可</translation>
     </message>
     <message>
-        <source>C-Note Core RPC client version</source>
+        <source>C-Note RPC client version</source>
         <translation>ビットコインコアRPCクライアントのバージョン</translation>
     </message>
     <message>
@@ -2678,7 +2678,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2689,7 +2689,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>%s, rpcpassword を設定ファイルで設定してください:
 %s
 下記のランダムなパスワードの使用を推奨します:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (このパスワードを覚える必要はありません)
 ユーザー名とパスワードが同じであってはいけません。
@@ -2766,7 +2766,7 @@ rpcpassword=%s
         <translation>これはリリース前のテストビルドです - 各自の責任で利用すること - 採掘や商取引に使用しないでください</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. C-Note is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2814,7 +2814,7 @@ rpcpassword=%s
         <translation>壊れた wallet.dat から秘密鍵を復旧することを試す</translation>
     </message>
     <message>
-        <source>C-Note Core Daemon</source>
+        <source>C-Note Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3023,7 +3023,7 @@ rpcpassword=%s
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use quark-cli):</source>
+        <source>Usage (deprecated, use c-note-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3059,7 +3059,7 @@ rpcpassword=%s
         <translation>外部の blk000??.dat ファイルからブロックをインポート</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. C-Note is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3147,7 +3147,7 @@ rpcpassword=%s
         <translation>SSL オプション: (SSLのセットアップ手順は C-Note Wiki をご覧下さい)</translation>
     </message>
     <message>
-        <source>Send command to C-Note Core</source>
+        <source>Send command to C-Note</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3183,7 +3183,7 @@ rpcpassword=%s
         <translation>接続のタイムアウトをミリセコンドで指定 (初期値: 5000)</translation>
     </message>
     <message>
-        <source>Start C-Note Core Daemon</source>
+        <source>Start C-Note Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>

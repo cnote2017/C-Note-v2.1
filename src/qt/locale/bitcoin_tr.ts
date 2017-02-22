@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About C-Note Core</source>
+        <source>About C-Note</source>
         <translation>C-Note Çekirdeği hakkında</translation>
     </message>
     <message>
-        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;C-Note&lt;/b&gt; version</source>
         <translation>&lt;b&gt;C-Note Çekirdek&lt;/b&gt; sürümü</translation>
     </message>
     <message>
@@ -28,7 +28,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Telif hakkı</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
+        <source>The C-Note developers</source>
         <translation>C-Note Çekirdeği geliştiricileri</translation>
     </message>
     <message>
@@ -225,7 +225,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Cüzdan şifrelendi</translation>
     </message>
     <message>
-        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</source>
         <translation>Şifreleme işlemini tamamlamak için C-Note şimdi kapanacaktır. Cüzdanınızı şifrelemenin, C-Notelerinizin bilgisayara bulaşan kötücül bir yazılım tarafından çalınmaya karşı tamamen koruyamayacağını unutmayınız.</translation>
     </message>
     <message>
@@ -428,15 +428,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>C-Note Çekirdeği</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
+        <source>Request payments (generates QR codes and c-note: URIs)</source>
         <translation>Ödeme talep et (QR kodu ve bitcoin URI&apos;si oluşturur)</translation>
     </message>
     <message>
-        <source>&amp;About C-Note Core</source>
+        <source>&amp;About C-Note</source>
         <translation>C-Note Çekirdeği &amp;hakkında</translation>
     </message>
     <message>
@@ -448,15 +448,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>Kullanılmış alım adresleri ve etiketlerin listesini göster</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Bir quark: bağlantısı ya da ödeme talebi aç</translation>
+        <source>Open a c-note: URI or payment request</source>
+        <translation>Bir c-note: bağlantısı ya da ödeme talebi aç</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komut satırı seçenekleri</translation>
     </message>
     <message>
-        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
+        <source>Show the C-Note help message to get a list with possible C-Note command-line options</source>
         <translation>C-Note komut satırı seçeneklerinin listesini elde etmek için C-Note Çekirdeği yardım mesajını göster</translation>
     </message>
     <message>
@@ -883,11 +883,11 @@ Adres: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>C-Note Core - Command-line options</source>
+        <source>C-Note - Command-line options</source>
         <translation>C-Note Çekirdeği - Komut satırı seçenekleri</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>C-Note Çekirdeği</translation>
     </message>
     <message>
@@ -934,15 +934,15 @@ Adres: %4
         <translation>Hoş geldiniz</translation>
     </message>
     <message>
-        <source>Welcome to C-Note Core.</source>
+        <source>Welcome to C-Note.</source>
         <translation>C-Note Çekirdeğine hoş geldiniz.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where C-Note will store its data.</source>
         <translation>Bu programı ilk kez başlattığınızdan dolayı C-Note Çekirdeğinin verilerini nereye saklayacağını seçebilirsiniz.</translation>
     </message>
     <message>
-        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>C-Note will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>C-Note çekirdeği C-Note blok zincirinin bir kopyasını indirip saklayacaktır. Asgari %1GB bouyutunda veri bu klasörde saklanacak ve zamanla bu boyut artacaktır. Cüzdan da bu klasörde saklanacaktır. </translation>
     </message>
     <message>
@@ -1286,7 +1286,7 @@ Adres: %4
         <translation>Ödeme talebi hatası</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
+        <source>Cannot start c-note: click-to-pay handler</source>
         <translation>C-Note başlatılamadı: tıkla-ve-öde yöneticisi</translation>
     </message>
     <message>
@@ -1357,7 +1357,7 @@ Adres: %4
         <translation>Hata: -regtest ve -testnet&apos;in geçersiz kombinasyonu.</translation>
     </message>
     <message>
-        <source>C-Note Core didn&apos;t yet exit safely...</source>
+        <source>C-Note didn&apos;t yet exit safely...</source>
         <translation>C-Note Çekirdeği henüz güvenli bir şekilde çıkış yapmamıştır...</translation>
     </message>
     <message>
@@ -1954,7 +1954,7 @@ Adres: %4
         <translation>Kullanılmış adres listesine eklemek için bu adrese bir etiket girin</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <source>A message that was attached to the c-note: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
         <translation>Bitcoin: URI&apos;siyle ilişkili ve bilginiz için muameleyle saklanacak bir mesaj. Not: Bu mesaj C-Note şebekesi üzerinden gönderilmeyecektir.</translation>
     </message>
     <message>
@@ -1973,7 +1973,7 @@ Adres: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>C-Note Core is shutting down...</source>
+        <source>C-Note is shutting down...</source>
         <translation>C-Note Çekirdeği kapanıyor...</translation>
     </message>
     <message>
@@ -2127,11 +2127,11 @@ Adres: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>C-Note Çekirdeği</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
+        <source>The C-Note developers</source>
         <translation>C-Note Çekirdeği geliştiricileri</translation>
     </message>
     <message>
@@ -2610,12 +2610,12 @@ Adres: %4
         <translation>Seçenekler:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Yapılandırma dosyası belirt (varsayılan: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: c-notecoin.conf)</source>
+        <translation>Yapılandırma dosyası belirt (varsayılan: c-notecoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: quarkd.pid)</source>
-        <translation>Pid dosyası belirt (varsayılan: quarkd.pid)</translation>
+        <source>Specify pid file (default: c-noted.pid)</source>
+        <translation>Pid dosyası belirt (varsayılan: c-noted.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2658,7 +2658,7 @@ Adres: %4
         <translation>Konut satırı ve JSON-RPC komutlarını kabul et</translation>
     </message>
     <message>
-        <source>C-Note Core RPC client version</source>
+        <source>C-Note RPC client version</source>
         <translation>C-Note Çekirdeği RPC istemci sürümü</translation>
     </message>
     <message>
@@ -2677,7 +2677,7 @@ Adres: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2688,7 +2688,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>%s, şu yapılandırma dosyasında rpc parolası belirtmeniz gerekir:
 %s
 Aşağıdaki rastgele oluşturulan parolayı kullanmanız tavsiye edilir:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (bu parolayı hatırlamanız gerekli değildir)
 Kullanıcı ismi ile parolanın FARKLI olmaları gerekir.
@@ -2766,7 +2766,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com
         <translation>Bu yayın öncesi bir deneme sürümüdür - tüm riski siz üstlenmiş olursunuz - bitcoin oluşturmak ya da ticari uygulamalar için kullanmayınız</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. C-Note is probably already running.</source>
         <translation>Bu bilgisayarda %s unsuruna bağlanılamadı. C-Note Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
@@ -2814,7 +2814,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com
         <translation>Bozuk bir wallet.dat dosyasından özel anahtarları geri kazanmayı dene</translation>
     </message>
     <message>
-        <source>C-Note Core Daemon</source>
+        <source>C-Note Daemon</source>
         <translation>C-Note Çekirdek servisi</translation>
     </message>
     <message>
@@ -3022,8 +3022,8 @@ mesela: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com
         <translation>Bu, regresyon deneme araçları ve uygulama geliştirmesi için tasarlanmıştır. </translation>
     </message>
     <message>
-        <source>Usage (deprecated, use quark-cli):</source>
-        <translation>Kullanım (önerilmemektedir, quark-cli kullanın):</translation>
+        <source>Usage (deprecated, use c-note-cli):</source>
+        <translation>Kullanım (önerilmemektedir, c-note-cli kullanın):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3058,7 +3058,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com
         <translation>Harici blk000??.dat dosyasından blokları içe aktarır</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. C-Note is probably already running.</source>
         <translation>%s veri dizininde kilit elde edilemedi. C-Note Çekirdeği muhtemelen hâlihazırda çalışmaktadır.</translation>
     </message>
     <message>
@@ -3146,7 +3146,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com
         <translation> SSL seçenekleri: (SSL kurulum bilgisi için C-Note vikisine bakınız)</translation>
     </message>
     <message>
-        <source>Send command to C-Note Core</source>
+        <source>Send command to C-Note</source>
         <translation>C-Note Çekirdeğine komut yolla</translation>
     </message>
     <message>
@@ -3182,7 +3182,7 @@ mesela: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com
         <translation>Bağlantı zaman aşım süresini milisaniye olarak belirt (varsayılan: 5000)</translation>
     </message>
     <message>
-        <source>Start C-Note Core Daemon</source>
+        <source>Start C-Note Daemon</source>
         <translation>C-Note Çekirdeği servisini başlat</translation>
     </message>
     <message>

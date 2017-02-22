@@ -5,12 +5,12 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About C-Note Core</source>
+        <source>About C-Note</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;C-Note&lt;/b&gt; version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -35,7 +35,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The C-Note Core developers</source>
+        <source>The C-Note developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -282,8 +282,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-56"/>
-        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
-        <translation>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</translation>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</source>
+        <translation>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -544,18 +544,18 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-400"/>
-        <source>C-Note Core</source>
-        <translation type="unfinished">C-Note Core</translation>
+        <source>C-Note</source>
+        <translation type="unfinished">C-Note</translation>
     </message>
     <message>
         <location line="+162"/>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
+        <source>Request payments (generates QR codes and c-note: URIs)</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+29"/>
         <location line="+2"/>
-        <source>&amp;About C-Note Core</source>
+        <source>&amp;About C-Note</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -570,7 +570,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+3"/>
-        <source>Open a quark: URI or payment request</source>
+        <source>Open a c-note: URI or payment request</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -580,7 +580,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+1"/>
-        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
+        <source>Show the C-Note help message to get a list with possible C-Note command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1129,13 +1129,13 @@ Address: %4
     <name>HelpMessageDialog</name>
     <message>
         <location filename="../forms/helpmessagedialog.ui" line="+19"/>
-        <source>C-Note Core - Command-line options</source>
+        <source>C-Note - Command-line options</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="../utilitydialog.cpp" line="+24"/>
-        <source>C-Note Core</source>
-        <translation type="unfinished">C-Note Core</translation>
+        <source>C-Note</source>
+        <translation type="unfinished">C-Note</translation>
     </message>
     <message>
         <location line="+0"/>
@@ -1192,17 +1192,17 @@ Address: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Welcome to C-Note Core.</source>
+        <source>Welcome to C-Note.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+26"/>
-        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where C-Note will store its data.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location line="+10"/>
-        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>C-Note will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1639,7 +1639,7 @@ Address: %4
     </message>
     <message>
         <location line="-353"/>
-        <source>Cannot start quark: click-to-pay handler</source>
+        <source>Cannot start c-note: click-to-pay handler</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -1729,7 +1729,7 @@ Address: %4
     </message>
     <message>
         <location line="+60"/>
-        <source>C-Note Core didn&apos;t yet exit safely...</source>
+        <source>C-Note didn&apos;t yet exit safely...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2494,7 +2494,7 @@ Address: %4
     </message>
     <message>
         <location line="+33"/>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <source>A message that was attached to the c-note: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2519,7 +2519,7 @@ Address: %4
     <name>ShutdownWindow</name>
     <message>
         <location filename="../utilitydialog.cpp" line="+52"/>
-        <source>C-Note Core is shutting down...</source>
+        <source>C-Note is shutting down...</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -2719,12 +2719,12 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+32"/>
-        <source>C-Note Core</source>
-        <translation type="unfinished">C-Note Core</translation>
+        <source>C-Note</source>
+        <translation type="unfinished">C-Note</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>The C-Note Core developers</source>
+        <source>The C-Note developers</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3320,7 +3320,7 @@ Address: %4
 <context>
     <name>bitcoin-core</name>
     <message>
-        <location filename="../quarkstrings.cpp" line="+262"/>
+        <location filename="../c-notestrings.cpp" line="+262"/>
         <source>Usage:</source>
         <translation>Usage:</translation>
     </message>
@@ -3341,13 +3341,13 @@ Address: %4
     </message>
     <message>
         <location line="+32"/>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Specify configuration file (default: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: c-notecoin.conf)</source>
+        <translation>Specify configuration file (default: c-notecoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Specify pid file (default: quarkd.pid)</source>
-        <translation>Specify pid file (default: quarkd.pid)</translation>
+        <source>Specify pid file (default: c-noted.pid)</source>
+        <translation>Specify pid file (default: c-noted.pid)</translation>
     </message>
     <message>
         <location line="-1"/>
@@ -3401,7 +3401,7 @@ Address: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>C-Note Core RPC client version</source>
+        <source>C-Note RPC client version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3424,7 +3424,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3435,7 +3435,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -3531,7 +3531,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+3"/>
-        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. C-Note is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3591,7 +3591,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+1"/>
-        <source>C-Note Core Daemon</source>
+        <source>C-Note Daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3851,7 +3851,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+10"/>
-        <source>Usage (deprecated, use quark-cli):</source>
+        <source>Usage (deprecated, use c-note-cli):</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -3896,7 +3896,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="-150"/>
-        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. C-Note is probably already running.</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4006,7 +4006,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+2"/>
-        <source>Send command to C-Note Core</source>
+        <source>Send command to C-Note</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -4051,7 +4051,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
     </message>
     <message>
         <location line="+6"/>
-        <source>Start C-Note Core Daemon</source>
+        <source>Start C-Note Daemon</source>
         <translation type="unfinished"></translation>
     </message>
     <message>

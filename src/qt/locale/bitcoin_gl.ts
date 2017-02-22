@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About C-Note Core</source>
+        <source>About C-Note</source>
         <translation>Sobre C-Note core</translation>
     </message>
     <message>
-        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;C-Note&lt;/b&gt; version</source>
         <translation>&lt;b&gt;C-Note core&lt;/b&gt; versión</translation>
     </message>
     <message>
@@ -28,8 +28,8 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
-        <translation>Os desarrolladores de C-Note Core</translation>
+        <source>The C-Note developers</source>
+        <translation>Os desarrolladores de C-Note</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -225,8 +225,8 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>Moedeiro encriptado</translation>
     </message>
     <message>
-        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
-        <translation>C-Note se pechará agora para rematar o proceso de encriptación. Lembra que encriptar o teu moedeiro non protexe totalmente os teus quarks de ser robados por malware que infecte o teu ordenador.</translation>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</source>
+        <translation>C-Note se pechará agora para rematar o proceso de encriptación. Lembra que encriptar o teu moedeiro non protexe totalmente os teus c-notes de ser robados por malware que infecte o teu ordenador.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -428,16 +428,16 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>Core de C-Note</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Solicitar pagos (xenera códigos QR e quark: URIs)</translation>
+        <source>Request payments (generates QR codes and c-note: URIs)</source>
+        <translation>Solicitar pagos (xenera códigos QR e c-note: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About C-Note Core</source>
-        <translation>&amp;Sobre C-Note Core</translation>
+        <source>&amp;About C-Note</source>
+        <translation>&amp;Sobre C-Note</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -448,15 +448,15 @@ Este produto inclúe software desenvolvido polo OpenSSL Project para o uso no Op
         <translation>Amosar a listaxe de etiquetas e direccións para recibir empregadas</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Abrir un quark: URI ou solicitude de pago</translation>
+        <source>Open a c-note: URI or payment request</source>
+        <translation>Abrir un c-note: URI ou solicitude de pago</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
+        <source>Show the C-Note help message to get a list with possible C-Note command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -883,11 +883,11 @@ Dirección: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>C-Note Core - Command-line options</source>
+        <source>C-Note - Command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>Core de C-Note</translation>
     </message>
     <message>
@@ -934,15 +934,15 @@ Dirección: %4
         <translation>Benvido</translation>
     </message>
     <message>
-        <source>Welcome to C-Note Core.</source>
+        <source>Welcome to C-Note.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where C-Note will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>C-Note will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1286,7 +1286,7 @@ Dirección: %4
         <translation>Erro na petición de pago</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
+        <source>Cannot start c-note: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1357,7 +1357,7 @@ Dirección: %4
         <translation>Erro: combinación inválida de -regtest e -testnet.</translation>
     </message>
     <message>
-        <source>C-Note Core didn&apos;t yet exit safely...</source>
+        <source>C-Note didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1954,7 +1954,7 @@ Dirección: %4
         <translation>Introduce unha etiqueta para esta dirección para engadila á listaxe de direccións empregadas</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <source>A message that was attached to the c-note: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1973,7 +1973,7 @@ Dirección: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>C-Note Core is shutting down...</source>
+        <source>C-Note is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2127,12 +2127,12 @@ Dirección: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>Core de C-Note</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
-        <translation>Os desarrolladores de C-Note Core</translation>
+        <source>The C-Note developers</source>
+        <translation>Os desarrolladores de C-Note</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2610,12 +2610,12 @@ Dirección: %4
         <translation>Opcións:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Especificar arquivo de configuración (por defecto: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: c-notecoin.conf)</source>
+        <translation>Especificar arquivo de configuración (por defecto: c-notecoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: quarkd.pid)</source>
-        <translation>Especificar arquivo de pid (por defecto: quarkd.pid)</translation>
+        <source>Specify pid file (default: c-noted.pid)</source>
+        <translation>Especificar arquivo de pid (por defecto: c-noted.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2658,7 +2658,7 @@ Dirección: %4
         <translation>Aceptar liña de comandos e comandos JSON-RPC</translation>
     </message>
     <message>
-        <source>C-Note Core RPC client version</source>
+        <source>C-Note RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2677,7 +2677,7 @@ Dirección: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2688,7 +2688,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>%s, debes fixar unha rpcpassword no arquivo de configuración:
 %s
 Reoméndase usar o seguinte contrasinal aleatorio:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (non precisas lembrar este contrasinal)
 O nome do usuario e o contrasinal DEBEN NON ser o mesmo.
@@ -2766,7 +2766,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Esta é unha build de test pre-lanzamento - emprégaa baixo o teu propio risco - non empregar para minado ou aplicacións de comerciantes</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. C-Note is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2814,7 +2814,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Tentar recuperar claves privadas dende un wallet.dat corrupto</translation>
     </message>
     <message>
-        <source>C-Note Core Daemon</source>
+        <source>C-Note Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3022,8 +3022,8 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use quark-cli):</source>
-        <translation>Emprego (desaconsellado, usar quark-cli)</translation>
+        <source>Usage (deprecated, use c-note-cli):</source>
+        <translation>Emprego (desaconsellado, usar c-note-cli)</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3058,7 +3058,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Importa bloques dende arquivos blk000??.dat externos</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. C-Note is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3146,7 +3146,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Opcións SSL: (ver ńa Wiki C-Note as instrucción de configuración de SSL)</translation>
     </message>
     <message>
-        <source>Send command to C-Note Core</source>
+        <source>Send command to C-Note</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3182,7 +3182,7 @@ por exemplo: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Especificar tempo límite da conexión en milisegundos (por defecto: 5000)</translation>
     </message>
     <message>
-        <source>Start C-Note Core Daemon</source>
+        <source>Start C-Note Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>

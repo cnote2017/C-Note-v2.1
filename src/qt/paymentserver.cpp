@@ -47,7 +47,7 @@
 using namespace boost;
 
 const int BITCOIN_IPC_CONNECT_TIMEOUT = 1000; // milliseconds
-const QString BITCOIN_IPC_PREFIX("quark:");
+const QString BITCOIN_IPC_PREFIX("c-note:");
 const char* BITCOIN_REQUEST_MIMETYPE = "application/bitcoin-paymentrequest";
 const char* BITCOIN_PAYMENTACK_MIMETYPE = "application/bitcoin-paymentack";
 const char* BITCOIN_PAYMENTACK_CONTENTTYPE = "application/bitcoin-payment";
@@ -186,7 +186,7 @@ bool PaymentServer::ipcParseCommandLine(int argc, char* argv[])
         if (arg.startsWith("-"))
             continue;
 
-        if (arg.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // quark: URI
+        if (arg.startsWith(BITCOIN_IPC_PREFIX, Qt::CaseInsensitive)) // c-note: URI
         {
             savedPaymentRequests.append(arg);
 
@@ -290,7 +290,7 @@ PaymentServer::PaymentServer(QObject* parent, bool startLocalServer) :
         if (!uriServer->listen(name)) {
             // constructor is called early in init, so don't use "emit message()" here
             QMessageBox::critical(0, tr("Payment request error"),
-                tr("Cannot start quark: click-to-pay handler"));
+                tr("Cannot start c-note: click-to-pay handler"));
         }
         else {
             connect(uriServer, SIGNAL(newConnection()), this, SLOT(handleURIConnection()));

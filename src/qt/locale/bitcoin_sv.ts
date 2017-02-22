@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About C-Note Core</source>
-        <translation>Om C-Note Core</translation>
+        <source>About C-Note</source>
+        <translation>Om C-Note</translation>
     </message>
     <message>
-        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;C-Note Core&lt;/b&gt;-version</translation>
+        <source>&lt;b&gt;C-Note&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;C-Note&lt;/b&gt;-version</translation>
     </message>
     <message>
         <source>
@@ -29,8 +29,8 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
-        <translation>C-Note Core-utvecklarna</translation>
+        <source>The C-Note developers</source>
+        <translation>C-Note-utvecklarna</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -226,7 +226,7 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Plånboken är krypterad</translation>
     </message>
     <message>
-        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</source>
         <translation>Programmet kommer nu att stänga ner för att färdigställa krypteringen. Tänk på att en krypterad plånbok inte skyddar mot stöld om din dator är infekterad med en keylogger.</translation>
     </message>
     <message>
@@ -429,16 +429,16 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>C-Note Kärna</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
+        <source>Request payments (generates QR codes and c-note: URIs)</source>
         <translation>Begär betalning (genererar QR-koder och bitcoin-URI)</translation>
     </message>
     <message>
-        <source>&amp;About C-Note Core</source>
-        <translation>&amp;Om C-Note Core</translation>
+        <source>&amp;About C-Note</source>
+        <translation>&amp;Om C-Note</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -449,16 +449,16 @@ Denna produkten innehåller mjukvara utvecklad av OpenSSL Project för användni
         <translation>Visa listan av använda mottagningsadresser och etiketter</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Öppna en quark: URI eller betalningsbegäran</translation>
+        <source>Open a c-note: URI or payment request</source>
+        <translation>Öppna en c-note: URI eller betalningsbegäran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Kommandoradsalternativ</translation>
     </message>
     <message>
-        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
-        <translation>Visa C-Note Core hjälpmeddelande för att få en lista med möjliga C-Note kommandoradsalternativ.</translation>
+        <source>Show the C-Note help message to get a list with possible C-Note command-line options</source>
+        <translation>Visa C-Note hjälpmeddelande för att få en lista med möjliga C-Note kommandoradsalternativ.</translation>
     </message>
     <message>
         <source>C-Note client</source>
@@ -884,11 +884,11 @@ Adress: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>C-Note Core - Command-line options</source>
-        <translation>C-Note Core - Kommandoradsalternativ</translation>
+        <source>C-Note - Command-line options</source>
+        <translation>C-Note - Kommandoradsalternativ</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>C-Note Kärna</translation>
     </message>
     <message>
@@ -935,16 +935,16 @@ Adress: %4
         <translation>Välkommen</translation>
     </message>
     <message>
-        <source>Welcome to C-Note Core.</source>
-        <translation>Välkommen till C-Note Core.</translation>
+        <source>Welcome to C-Note.</source>
+        <translation>Välkommen till C-Note.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
-        <translation>Eftersom detta är första gången programmet startas får du välja var C-Note Core skall lagra sitt data.</translation>
+        <source>As this is the first time the program is launched, you can choose where C-Note will store its data.</source>
+        <translation>Eftersom detta är första gången programmet startas får du välja var C-Note skall lagra sitt data.</translation>
     </message>
     <message>
-        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>C-Note Core kommer att ladda ner och spara en kopia av C-Note blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
+        <source>C-Note will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>C-Note kommer att ladda ner och spara en kopia av C-Note blockkedjan. Åtminstone %1GB av data kommer att sparas i denna katalog, och den kommer att växa över tiden. Plånboken kommer också att sparas i denna katalog.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1287,8 +1287,8 @@ Adress: %4
         <translation>Fel vid betalningsbegäran</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
-        <translation>Kan inte starta quark: klicka-och-betala handhavare</translation>
+        <source>Cannot start c-note: click-to-pay handler</source>
+        <translation>Kan inte starta c-note: klicka-och-betala handhavare</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1358,8 +1358,8 @@ Adress: %4
         <translation>Fel: Felaktig kombination av -regtest och -testnet.</translation>
     </message>
     <message>
-        <source>C-Note Core didn&apos;t yet exit safely...</source>
-        <translation>C-Note Core avslutades inte ännu säkert...</translation>
+        <source>C-Note didn&apos;t yet exit safely...</source>
+        <translation>C-Note avslutades inte ännu säkert...</translation>
     </message>
     <message>
         <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
@@ -1955,7 +1955,7 @@ Adress: %4
         <translation>Ange en etikett för denna adress att adderas till listan över använda adresser</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <source>A message that was attached to the c-note: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
         <translation>Ett meddelande som bifogades bitcoin-URI, vilket lagras med transaktionen som referens. NB: Meddelandet kommer inte att sändas över C-Notenätverket.</translation>
     </message>
     <message>
@@ -1974,8 +1974,8 @@ Adress: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>C-Note Core is shutting down...</source>
-        <translation>C-Note Core stängs av...</translation>
+        <source>C-Note is shutting down...</source>
+        <translation>C-Note stängs av...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2128,12 +2128,12 @@ Adress: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>C-Note Kärna</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
-        <translation>C-Note Core-utvecklarna</translation>
+        <source>The C-Note developers</source>
+        <translation>C-Note-utvecklarna</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2611,12 +2611,12 @@ Adress: %4
         <translation>Inställningar:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Ange konfigurationsfil (förvalt: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: c-notecoin.conf)</source>
+        <translation>Ange konfigurationsfil (förvalt: c-notecoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: quarkd.pid)</source>
-        <translation>Ange pid fil (förvalt: quarkd.pid)</translation>
+        <source>Specify pid file (default: c-noted.pid)</source>
+        <translation>Ange pid fil (förvalt: c-noted.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2659,8 +2659,8 @@ Adress: %4
         <translation>Tillåt kommandon från kommandotolken och JSON-RPC-kommandon</translation>
     </message>
     <message>
-        <source>C-Note Core RPC client version</source>
-        <translation>C-Note Core RPC-klient version</translation>
+        <source>C-Note RPC client version</source>
+        <translation>C-Note RPC-klient version</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2678,7 +2678,7 @@ Adress: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2689,7 +2689,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>%s, du behöver sätta ett rpclösensord i konfigurationsfilen:
 %s
 Det är rekommenderat att använda följande slumpade lösenord:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (du behöver inte komma ihåg lösenordet)
 Användarnamnet och lösenordet FÅR INTE bara detsamma.
@@ -2732,7 +2732,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.
     </message>
     <message>
         <source>Error: This transaction requires a transaction fee of at least %s because of its amount, complexity, or use of recently received funds!</source>
-        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna quarks!</translation>
+        <translation>Fel: Denna transaktion kräver en transaktionsavgift på minst %s på grund av dess storlek, komplexitet, eller användning av senast mottagna c-notes!</translation>
     </message>
     <message>
         <source>Execute command when a wallet transaction changes (%s in cmd is replaced by TxID)</source>
@@ -2767,8 +2767,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.
         <translation>Detta är ett förhands testbygge - använd på egen risk - använd inte för mining eller handels applikationer</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
-        <translation>Det går inte att binda till %s på den här datorn. C-Note Core är förmodligen redan igång.</translation>
+        <source>Unable to bind to %s on this computer. C-Note is probably already running.</source>
+        <translation>Det går inte att binda till %s på den här datorn. C-Note är förmodligen redan igång.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2815,8 +2815,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.
         <translation>Försök att rädda de privata nycklarna från en korrupt wallet.dat</translation>
     </message>
     <message>
-        <source>C-Note Core Daemon</source>
-        <translation>C-Note Core tjänsten</translation>
+        <source>C-Note Daemon</source>
+        <translation>C-Note tjänsten</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3023,8 +3023,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.
         <translation>Detta är avsett för regressionstestningsverktyg och applikationsutveckling.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use quark-cli):</source>
-        <translation>Användning (föråldrat, använd quark-cli):</translation>
+        <source>Usage (deprecated, use c-note-cli):</source>
+        <translation>Användning (föråldrat, använd c-note-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3059,8 +3059,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.
         <translation>Importerar block från extern blk000??.dat fil</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
-        <translation>Kan inte låsa data-mappen %s. C-Note Core körs förmodligen redan.</translation>
+        <source>Cannot obtain a lock on data directory %s. C-Note is probably already running.</source>
+        <translation>Kan inte låsa data-mappen %s. C-Note körs förmodligen redan.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3147,8 +3147,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.
         <translation>SSL-inställningar: (se C-Note-wikin för SSL-setup instruktioner)</translation>
     </message>
     <message>
-        <source>Send command to C-Note Core</source>
-        <translation>Sänd kommando till C-Note Core</translation>
+        <source>Send command to C-Note</source>
+        <translation>Sänd kommando till C-Note</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3183,8 +3183,8 @@ till exempel: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.
         <translation>Ange timeout för uppkoppling i millisekunder (förvalt: 5000)</translation>
     </message>
     <message>
-        <source>Start C-Note Core Daemon</source>
-        <translation>Starta C-Note Core tjänsten</translation>
+        <source>Start C-Note Daemon</source>
+        <translation>Starta C-Note tjänsten</translation>
     </message>
     <message>
         <source>System error: </source>
@@ -3340,7 +3340,7 @@ till exempel: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Otillräckligt med quarks</translation>
+        <translation>Otillräckligt med c-notes</translation>
     </message>
     <message>
         <source>Loading block index...</source>

@@ -107,8 +107,8 @@ void setupAmountWidget(QLineEdit *widget, QWidget *parent)
 
 bool parseBitcoinURI(const QUrl &uri, SendCoinsRecipient *out)
 {
-    // return if URI is not valid or is no quark: URI
-    if(!uri.isValid() || uri.scheme() != QString("quark"))
+    // return if URI is not valid or is no c-note: URI
+    if(!uri.isValid() || uri.scheme() != QString("c-note"))
         return false;
 
     SendCoinsRecipient rv;
@@ -168,9 +168,9 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
     //
     //    Cannot handle this later, because bitcoin:// will cause Qt to see the part after // as host,
     //    which will lower-case it (and thus invalidate the address).
-    if(uri.startsWith("quark://", Qt::CaseInsensitive))
+    if(uri.startsWith("c-note://", Qt::CaseInsensitive))
     {
-        uri.replace(0, 8, "quark:");
+        uri.replace(0, 8, "c-note:");
     }
     QUrl uriInstance(uri);
     return parseBitcoinURI(uriInstance, out);
@@ -178,7 +178,7 @@ bool parseBitcoinURI(QString uri, SendCoinsRecipient *out)
 
 QString formatBitcoinURI(const SendCoinsRecipient &info)
 {
-    QString ret = QString("quark:%1").arg(info.address);
+    QString ret = QString("c-note:%1").arg(info.address);
     int paramCount = 0;
 
     if (info.amount)
@@ -592,7 +592,7 @@ boost::filesystem::path static GetAutostartDir()
 
 boost::filesystem::path static GetAutostartFilePath()
 {
-    return GetAutostartDir() / "quark.desktop";
+    return GetAutostartDir() / "c-note.desktop";
 }
 
 bool GetStartOnSystemStartup()

@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About C-Note Core</source>
-        <translation>Mengenai C-Note Core</translation>
+        <source>About C-Note</source>
+        <translation>Mengenai C-Note</translation>
     </message>
     <message>
-        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
-        <translation>versi &lt;b&gt;C-Note Core&lt;/b&gt;</translation>
+        <source>&lt;b&gt;C-Note&lt;/b&gt; version</source>
+        <translation>versi &lt;b&gt;C-Note&lt;/b&gt;</translation>
     </message>
     <message>
         <source>
@@ -28,8 +28,8 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Copyright</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
-        <translation>Pembangun C-Note Core</translation>
+        <source>The C-Note developers</source>
+        <translation>Pembangun C-Note</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -225,7 +225,7 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Dompet terenkripsi</translation>
     </message>
     <message>
-        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</source>
         <translation>C-Note akan menutup untuk menyelesaikan proses enkripsi. Ingat bahwa dengan mengenkripsi dompet Anda tidak sepenuhnya melindungi bitcoin Anda dari perangkat lunak berbahaya yang menginfeksi komputer Anda.</translation>
     </message>
     <message>
@@ -428,16 +428,16 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
-        <translation>C-Note Core</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Permintaan pembayaran (membangkitkan kode QR dan quark: URIs)</translation>
+        <source>Request payments (generates QR codes and c-note: URIs)</source>
+        <translation>Permintaan pembayaran (membangkitkan kode QR dan c-note: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About C-Note Core</source>
-        <translation>&amp;Mengenai C-Note Core</translation>
+        <source>&amp;About C-Note</source>
+        <translation>&amp;Mengenai C-Note</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -448,16 +448,16 @@ Produk ini termasuk software yang dibangun oleh Proyek OpenSSL untuk Toolkit Ope
         <translation>Tampilkan daftar alamat dan label yang diterima</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Buka URI quark: atau permintaan pembayaran</translation>
+        <source>Open a c-note: URI or payment request</source>
+        <translation>Buka URI c-note: atau permintaan pembayaran</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;pilihan Perintah-baris</translation>
     </message>
     <message>
-        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
-        <translation>Tampilkan pesan bantuan C-Note Core untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi C-Note</translation>
+        <source>Show the C-Note help message to get a list with possible C-Note command-line options</source>
+        <translation>Tampilkan pesan bantuan C-Note untuk memberikan daftar pilihan perintah-baris yang memungkinkan dalam aplikasi C-Note</translation>
     </message>
     <message>
         <source>C-Note client</source>
@@ -883,12 +883,12 @@ Alamat: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>C-Note Core - Command-line options</source>
-        <translation>C-Note Core - pilihan Perintah-baris</translation>
+        <source>C-Note - Command-line options</source>
+        <translation>C-Note - pilihan Perintah-baris</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
-        <translation>C-Note Core</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
         <source>version</source>
@@ -934,15 +934,15 @@ Alamat: %4
         <translation>Selamat Datang</translation>
     </message>
     <message>
-        <source>Welcome to C-Note Core.</source>
-        <translation>Selamat Datang ke C-Note Core</translation>
+        <source>Welcome to C-Note.</source>
+        <translation>Selamat Datang ke C-Note</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where C-Note will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>C-Note will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1286,7 +1286,7 @@ Alamat: %4
         <translation>Gagalan permintaan pembayaran</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
+        <source>Cannot start c-note: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1357,7 +1357,7 @@ Alamat: %4
         <translation>Gagal: Gabungan -regtest dan -testnet salah</translation>
     </message>
     <message>
-        <source>C-Note Core didn&apos;t yet exit safely...</source>
+        <source>C-Note didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1954,7 +1954,7 @@ Alamat: %4
         <translation>Masukkan label untuk alamat ini untuk dimasukan dalam daftar alamat yang pernah digunakan</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <source>A message that was attached to the c-note: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1973,8 +1973,8 @@ Alamat: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>C-Note Core is shutting down...</source>
-        <translation>C-Note Core sementara dimatikan...</translation>
+        <source>C-Note is shutting down...</source>
+        <translation>C-Note sementara dimatikan...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2127,12 +2127,12 @@ Alamat: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>C-Note Core</source>
-        <translation>C-Note Core</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
-        <translation>Pembangun C-Note Core</translation>
+        <source>The C-Note developers</source>
+        <translation>Pembangun C-Note</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2610,12 +2610,12 @@ Alamat: %4
         <translation>Pilihan:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Tentukan berkas konfigurasi (standar: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: c-notecoin.conf)</source>
+        <translation>Tentukan berkas konfigurasi (standar: c-notecoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: quarkd.pid)</source>
-        <translation>Tentukan berkas pid (standar: quarkd.pid)</translation>
+        <source>Specify pid file (default: c-noted.pid)</source>
+        <translation>Tentukan berkas pid (standar: c-noted.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2658,7 +2658,7 @@ Alamat: %4
         <translation>Menerima perintah baris perintah dan JSON-RPC</translation>
     </message>
     <message>
-        <source>C-Note Core RPC client version</source>
+        <source>C-Note RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2677,7 +2677,7 @@ Alamat: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2757,8 +2757,8 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
-        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan C-Note Core sudah mulai.</translation>
+        <source>Unable to bind to %s on this computer. C-Note is probably already running.</source>
+        <translation>Tidak bisa mengikat dengan %s di computer ini. Kemungkinan C-Note sudah mulai.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2805,8 +2805,8 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Coba memulihkan kunci-kunci pribadi dari wallet.dat yang rusak</translation>
     </message>
     <message>
-        <source>C-Note Core Daemon</source>
-        <translation>Daemon C-Note Core</translation>
+        <source>C-Note Daemon</source>
+        <translation>Daemon C-Note</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3013,7 +3013,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use quark-cli):</source>
+        <source>Usage (deprecated, use c-note-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3049,8 +3049,8 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Impor blok dari eksternal berkas blk000???.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
-        <translation>Tidak bisa mengunci data directory %s. Kemungkinan C-Note Core sudah mulai.</translation>
+        <source>Cannot obtain a lock on data directory %s. C-Note is probably already running.</source>
+        <translation>Tidak bisa mengunci data directory %s. Kemungkinan C-Note sudah mulai.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3137,7 +3137,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Pilihan SSL: (petunjuk pengaturan SSL lihat dalam C-Note Wiki)</translation>
     </message>
     <message>
-        <source>Send command to C-Note Core</source>
+        <source>Send command to C-Note</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3173,8 +3173,8 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Menetapkan waktu berakhir koneksi di milidetik (biasanya: 5000)</translation>
     </message>
     <message>
-        <source>Start C-Note Core Daemon</source>
-        <translation>Memulai C-Note Core Daemon</translation>
+        <source>Start C-Note Daemon</source>
+        <translation>Memulai C-Note Daemon</translation>
     </message>
     <message>
         <source>System error: </source>

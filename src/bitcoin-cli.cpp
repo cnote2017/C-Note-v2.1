@@ -42,11 +42,11 @@ static bool AppInitRPC(int argc, char* argv[])
     if (argc<2 || mapArgs.count("-?") || mapArgs.count("--help"))
     {
         // First part of help message is specific to RPC client
-        std::string strUsage = _("C-Note Core RPC client version") + " " + FormatFullVersion() + "\n\n" +
+        std::string strUsage = _("C-Note RPC client version") + " " + FormatFullVersion() + "\n\n" +
             _("Usage:") + "\n" +
-              "  quark-cli [options] <command> [params]  " + _("Send command to C-Note Core") + "\n" +
-              "  quark-cli [options] help                " + _("List commands") + "\n" +
-              "  quark-cli [options] help <command>      " + _("Get help for a command") + "\n";
+              "  c-note-cli [options] <command> [params]  " + _("Send command to C-Note") + "\n" +
+              "  c-note-cli [options] help                " + _("List commands") + "\n" +
+              "  c-note-cli [options] help <command>      " + _("Get help for a command") + "\n";
 
         strUsage += "\n" + HelpMessageCli(true);
 

@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About C-Note Core</source>
-        <translation>Par C-Note Core</translation>
+        <source>About C-Note</source>
+        <translation>Par C-Note</translation>
     </message>
     <message>
-        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;C-Note Core&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;C-Note&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;C-Note&lt;/b&gt; versija</translation>
     </message>
     <message>
         <source>
@@ -28,8 +28,8 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation>Autortiesības</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
-        <translation>C-Note Core izstrādātāji</translation>
+        <source>The C-Note developers</source>
+        <translation>C-Note izstrādātāji</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -84,11 +84,11 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Izvēlies adresi uz kuru sūtīt quarks</translation>
+        <translation>Izvēlies adresi uz kuru sūtīt c-notes</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Izvēlies adresi ar kuru saņemt quarks</translation>
+        <translation>Izvēlies adresi ar kuru saņemt c-notes</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -225,7 +225,7 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation>Maciņš nošifrēts</translation>
     </message>
     <message>
-        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</source>
         <translation>C-Note aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst bitkoinu zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
@@ -428,16 +428,16 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
-        <translation>C-Note Core</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un quark: URIs)</translation>
+        <source>Request payments (generates QR codes and c-note: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un c-note: URIs)</translation>
     </message>
     <message>
-        <source>&amp;About C-Note Core</source>
-        <translation>Par &amp;C-Note Core</translation>
+        <source>&amp;About C-Note</source>
+        <translation>Par &amp;C-Note</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -448,7 +448,7 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
+        <source>Open a c-note: URI or payment request</source>
         <translation>Atvērt bitcoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
@@ -456,7 +456,7 @@ Izplatīta saskaņā ar MIT/X11 programmatūras licenci, skatīt pievienoto datn
         <translation>&amp;Komandrindas iespējas</translation>
     </message>
     <message>
-        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
+        <source>Show the C-Note help message to get a list with possible C-Note command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -561,7 +561,7 @@ Adrese: %4
     </message>
     <message>
         <source>A fatal error occurred. C-Note can no longer continue safely and will quit.</source>
-        <translation>Radās fatāla kļūda. C-Note Core nevar vairs droši turpināt un tiks izslēgta.</translation>
+        <translation>Radās fatāla kļūda. C-Note nevar vairs droši turpināt un tiks izslēgta.</translation>
     </message>
 </context>
 <context>
@@ -883,12 +883,12 @@ Adrese: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>C-Note Core - Command-line options</source>
-        <translation>C-Note Core - Komandrindas iespējas</translation>
+        <source>C-Note - Command-line options</source>
+        <translation>C-Note - Komandrindas iespējas</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
-        <translation>C-Note Core</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
         <source>version</source>
@@ -934,15 +934,15 @@ Adrese: %4
         <translation>Sveiciens</translation>
     </message>
     <message>
-        <source>Welcome to C-Note Core.</source>
-        <translation>Sveicināts C-Note Core</translation>
+        <source>Welcome to C-Note.</source>
+        <translation>Sveicināts C-Note</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where C-Note will store its data.</source>
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>C-Note will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1286,7 +1286,7 @@ Adrese: %4
         <translation>Maksājumu pieprasījuma kļūda</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
+        <source>Cannot start c-note: click-to-pay handler</source>
         <translation>Nevar palaist C-Note: nospied-lai-maksātu apstrādātāju</translation>
     </message>
     <message>
@@ -1357,8 +1357,8 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>C-Note Core didn&apos;t yet exit safely...</source>
-        <translation>C-Note Core vel neizgāja droši...</translation>
+        <source>C-Note didn&apos;t yet exit safely...</source>
+        <translation>C-Note vel neizgāja droši...</translation>
     </message>
     <message>
         <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
@@ -1954,7 +1954,7 @@ Adrese: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <source>A message that was attached to the c-note: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1973,8 +1973,8 @@ Adrese: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>C-Note Core is shutting down...</source>
-        <translation>C-Note Core tiek izslēgta...</translation>
+        <source>C-Note is shutting down...</source>
+        <translation>C-Note tiek izslēgta...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2127,12 +2127,12 @@ Adrese: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>C-Note Core</source>
-        <translation>C-Note Core</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
-        <translation>C-Note Core izstrādātāji</translation>
+        <source>The C-Note developers</source>
+        <translation>C-Note izstrādātāji</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2610,12 +2610,12 @@ Adrese: %4
         <translation>Iespējas:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: c-notecoin.conf)</source>
+        <translation>Norādiet konfigurācijas failu (pēc noklusēšanas: c-notecoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: quarkd.pid)</source>
-        <translation>Norādiet pid failu (pēc noklusēšanas: quarkd.pid)</translation>
+        <source>Specify pid file (default: c-noted.pid)</source>
+        <translation>Norādiet pid failu (pēc noklusēšanas: c-noted.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2658,8 +2658,8 @@ Adrese: %4
         <translation>Pieņemt komandrindas un JSON-RPC komandas</translation>
     </message>
     <message>
-        <source>C-Note Core RPC client version</source>
-        <translation>C-Note Core RPC klienta versija</translation>
+        <source>C-Note RPC client version</source>
+        <translation>C-Note RPC klienta versija</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2677,7 +2677,7 @@ Adrese: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2756,7 +2756,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. C-Note is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2769,7 +2769,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
     </message>
     <message>
         <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong C-Note will not work properly.</source>
-        <translation>Brīdinājums: Lūdzu pārbaudi vai tava datora datums un laiks ir pareizs! Ja pulkstenis ir nepareizs, C-Note Core nestrādās pareizi.</translation>
+        <translation>Brīdinājums: Lūdzu pārbaudi vai tava datora datums un laiks ir pareizs! Ja pulkstenis ir nepareizs, C-Note nestrādās pareizi.</translation>
     </message>
     <message>
         <source>Warning: The network does not appear to fully agree! Some miners appear to be experiencing issues.</source>
@@ -2804,8 +2804,8 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Mēģināt atgūt privātās atslēgas no bojāta wallet.dat</translation>
     </message>
     <message>
-        <source>C-Note Core Daemon</source>
-        <translation>C-Note Core Process</translation>
+        <source>C-Note Daemon</source>
+        <translation>C-Note Process</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3012,7 +3012,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use quark-cli):</source>
+        <source>Usage (deprecated, use c-note-cli):</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3048,7 +3048,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Importēt blokus no ārējās blk000??.dat datnes</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. C-Note is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3136,8 +3136,8 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Send command to C-Note Core</source>
-        <translation>Sūtīt komandu uz C-Note Core</translation>
+        <source>Send command to C-Note</source>
+        <translation>Sūtīt komandu uz C-Note</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3172,8 +3172,8 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Start C-Note Core Daemon</source>
-        <translation>Sākt C-Note Core Procesu</translation>
+        <source>Start C-Note Daemon</source>
+        <translation>Sākt C-Note Procesu</translation>
     </message>
     <message>
         <source>System error: </source>

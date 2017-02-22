@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About C-Note Core</source>
-        <translation>C-Note Core-ს შესახებ</translation>
+        <source>About C-Note</source>
+        <translation>C-Note-ს შესახებ</translation>
     </message>
     <message>
-        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;C-Note Core&lt;/b&gt;-ს ვერსია</translation>
+        <source>&lt;b&gt;C-Note&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;C-Note&lt;/b&gt;-ს ვერსია</translation>
     </message>
     <message>
         <source>
@@ -28,8 +28,8 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>საავტორო უფლებები</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
-        <translation>C-Note Core-ს ავტორები</translation>
+        <source>The C-Note developers</source>
+        <translation>C-Note-ს ავტორები</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -225,7 +225,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>საფულე დაშიფრულია</translation>
     </message>
     <message>
-        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</source>
         <translation>ახლა C-Note დაიხურება დაშიფრვის პროცესის დასასრულებლად. გაითვალისწინეთ, რომ დაშიფრვა სრულად ვერ დაიცავს თქვენს ბითქოინებს თქვენს კომპიუტერში შემოპარული მავნე პროგრამების საშუალებით დატაცებისაგან.</translation>
     </message>
     <message>
@@ -428,16 +428,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
-        <translation>C-Note Core</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და quark: ბმულები)</translation>
+        <source>Request payments (generates QR codes and c-note: URIs)</source>
+        <translation>გადახდის მოთხოვნა (შეიქმნება QR-კოდები და c-note: ბმულები)</translation>
     </message>
     <message>
-        <source>&amp;About C-Note Core</source>
-        <translation>C-Note Core-ს შეს&amp;ახებ</translation>
+        <source>&amp;About C-Note</source>
+        <translation>C-Note-ს შეს&amp;ახებ</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -448,16 +448,16 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>გამოყენებული მიღების მისამართებისა და ნიშნულების სიის ჩვენება</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>quark: URI-ის ან გადახდის მოთხოვნის გახსნა</translation>
+        <source>Open a c-note: URI or payment request</source>
+        <translation>c-note: URI-ის ან გადახდის მოთხოვნის გახსნა</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>საკომანდო სტრიქონის ოპ&amp;ციები</translation>
     </message>
     <message>
-        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
-        <translation>C-Note Core-ს დახმარების ჩვენება C-Note-ის საკომანდო სტრიქონის დასაშვები ოპციების სანახავად</translation>
+        <source>Show the C-Note help message to get a list with possible C-Note command-line options</source>
+        <translation>C-Note-ს დახმარების ჩვენება C-Note-ის საკომანდო სტრიქონის დასაშვები ოპციების სანახავად</translation>
     </message>
     <message>
         <source>C-Note client</source>
@@ -883,12 +883,12 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>C-Note Core - Command-line options</source>
-        <translation>C-Note Core - საკომანდო სტრიქონის ოპციები</translation>
+        <source>C-Note - Command-line options</source>
+        <translation>C-Note - საკომანდო სტრიქონის ოპციები</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
-        <translation>C-Note Core</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
         <source>version</source>
@@ -934,16 +934,16 @@ Address: %4
         <translation>მოგესალმებით</translation>
     </message>
     <message>
-        <source>Welcome to C-Note Core.</source>
-        <translation>მოგესალმებათ C-Note Core.</translation>
+        <source>Welcome to C-Note.</source>
+        <translation>მოგესალმებათ C-Note.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
-        <translation>ეს პროგრამის პირველი გაშვებაა; შეგიძლიათ მიუთითოთ, სად შეინახოს მონაცემები C-Note Core-მ.</translation>
+        <source>As this is the first time the program is launched, you can choose where C-Note will store its data.</source>
+        <translation>ეს პროგრამის პირველი გაშვებაა; შეგიძლიათ მიუთითოთ, სად შეინახოს მონაცემები C-Note-მ.</translation>
     </message>
     <message>
-        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>C-Note Core გადმოტვირთავს და შეინახავს C-Note-ის ბლოკთა ჯაჭვს. მითითებულ კატალოგში დაგროვდება სულ ცოტა 1 გბ მონაცემები, და მომავალში უფრო გაიზრდება. საფულეც ამავე კატალოგში შეინახება.</translation>
+        <source>C-Note will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>C-Note გადმოტვირთავს და შეინახავს C-Note-ის ბლოკთა ჯაჭვს. მითითებულ კატალოგში დაგროვდება სულ ცოტა 1 გბ მონაცემები, და მომავალში უფრო გაიზრდება. საფულეც ამავე კატალოგში შეინახება.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1286,8 +1286,8 @@ Address: %4
         <translation>გადახდის მოთხოვნის შეცდომა</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
-        <translation>ვერ გაიშვა quark: click-to-pay</translation>
+        <source>Cannot start c-note: click-to-pay handler</source>
+        <translation>ვერ გაიშვა c-note: click-to-pay</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1357,7 +1357,7 @@ Address: %4
         <translation>შეცდომა: -regtest-ისა და -testnet-ის დაუშვებელი კომბინაცია.</translation>
     </message>
     <message>
-        <source>C-Note Core didn&apos;t yet exit safely...</source>
+        <source>C-Note didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1954,7 +1954,7 @@ Address: %4
         <translation>შეიყვანეთ ამ მისამართის ნიშნული გამოყენებული მისამართების სიაში დასამატებლად</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <source>A message that was attached to the c-note: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
         <translation>მესიჯი, რომელიც თან ერთვის მონეტებს:  URI, რომელიც შეინახება ტრანსაქციასთან ერთად თქვენთვის. შენიშვნა: მესიჯი არ გაყვება გადახდას ბითქოინის ქსელში.</translation>
     </message>
     <message>
@@ -1973,8 +1973,8 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>C-Note Core is shutting down...</source>
-        <translation>C-Note Core იხურება...</translation>
+        <source>C-Note is shutting down...</source>
+        <translation>C-Note იხურება...</translation>
     </message>
     <message>
         <source>Do not shut down the computer until this window disappears.</source>
@@ -2127,12 +2127,12 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>C-Note Core</source>
-        <translation>C-Note Core</translation>
+        <source>C-Note</source>
+        <translation>C-Note</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
-        <translation>C-Note Core-ს ავტორები</translation>
+        <source>The C-Note developers</source>
+        <translation>C-Note-ს ავტორები</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2610,12 +2610,12 @@ Address: %4
         <translation>ოპციები:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>მიუთითეთ საკონფიგურაციო ფაილი (ნაგულისხმევია: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: c-notecoin.conf)</source>
+        <translation>მიუთითეთ საკონფიგურაციო ფაილი (ნაგულისხმევია: c-notecoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: quarkd.pid)</source>
-        <translation>მიუთითეთ pid ფაილი (ნაგულისხმევია: quarkd.pid)</translation>
+        <source>Specify pid file (default: c-noted.pid)</source>
+        <translation>მიუთითეთ pid ფაილი (ნაგულისხმევია: c-noted.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2658,7 +2658,7 @@ Address: %4
         <translation>საკომანდო სტრიქონისა და JSON-RPC-კომამდების ნებართვა</translation>
     </message>
     <message>
-        <source>C-Note Core RPC client version</source>
+        <source>C-Note RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2677,7 +2677,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2688,7 +2688,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>%s, მიუთითეთ rpcpassword საკონფიგურაციო ფაილში:
 %s
 რეკომენდებულია შემდეგი შემთხვევითი პაროლი:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (ამის დამახსოვრება არ გჭირდებათ)
 სახელი და პაროლი ერთმანეთს არ უნდა ემთხვეოდეს.
@@ -2766,7 +2766,7 @@ rpcpassword=%s
         <translation>ეს არის წინასწარი სატესტო ვერსია - გამოიყენეთ საკუთარი რისკით - არ გამოიყენოთ მოპოვებისა ან კომერციული მიზნებისათვის</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. C-Note is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2814,8 +2814,8 @@ rpcpassword=%s
         <translation>პირადი გასაღებების აღდგენის მცდელობა wallet.dat-იდან</translation>
     </message>
     <message>
-        <source>C-Note Core Daemon</source>
-        <translation>C-Note Core დემონი</translation>
+        <source>C-Note Daemon</source>
+        <translation>C-Note დემონი</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3022,8 +3022,8 @@ rpcpassword=%s
         <translation>გამოიყენება რეგრესული ტესტირების ინსტრუმენტებისა და პროგრამების შემუშავებისას.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use quark-cli):</source>
-        <translation>გამოყენება (მოძველებულია, გამოიყენეთ quark-cli):</translation>
+        <source>Usage (deprecated, use c-note-cli):</source>
+        <translation>გამოყენება (მოძველებულია, გამოიყენეთ c-note-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3058,7 +3058,7 @@ rpcpassword=%s
         <translation>ბლოკების იმპორტი გარე blk000??.dat ფაილიდან</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. C-Note is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3146,7 +3146,7 @@ rpcpassword=%s
         <translation>SSL ოპციები: (იხილე C-Note Wiki-ში  SSL-ს მოწყობის ინსტრუქციები)</translation>
     </message>
     <message>
-        <source>Send command to C-Note Core</source>
+        <source>Send command to C-Note</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3182,7 +3182,7 @@ rpcpassword=%s
         <translation>მიუთითეთ შეერთების ტაიმაუტი მილიწამებში (ნაგულისხმევი: 5000)</translation>
     </message>
     <message>
-        <source>Start C-Note Core Daemon</source>
+        <source>Start C-Note Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>

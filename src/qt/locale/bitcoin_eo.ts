@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About C-Note Core</source>
+        <source>About C-Note</source>
         <translation>Pri la Bitmona Kerno</translation>
     </message>
     <message>
-        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;C-Note&lt;/b&gt; version</source>
         <translation>Versio de &lt;b&gt;Bitmona Kerno&lt;/b&gt;</translation>
     </message>
     <message>
@@ -28,7 +28,7 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>Kopirajto</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
+        <source>The C-Note developers</source>
         <translation>La programistoj de Bitmona Kerno</translation>
     </message>
     <message>
@@ -225,7 +225,7 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>La monujo estas ĉifrita</translation>
     </message>
     <message>
-        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</source>
         <translation>Bitmono nun fermiĝos por fini la ĉifradon. Memoru, ke eĉ ĉifrado ne protektas kontraŭ ĉiu atako, ekz. se viruso infektus vian komputilon.</translation>
     </message>
     <message>
@@ -428,15 +428,15 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>Kerno de Bitmono</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso quark:)</translation>
+        <source>Request payments (generates QR codes and c-note: URIs)</source>
+        <translation>Peti pagon (kreas QR-kodojn kaj URI-ojn kun prefikso c-note:)</translation>
     </message>
     <message>
-        <source>&amp;About C-Note Core</source>
+        <source>&amp;About C-Note</source>
         <translation>&amp;Pri la Bitmona Kerno</translation>
     </message>
     <message>
@@ -448,15 +448,15 @@ Tiu ĉi produkto enhavas erojn kreitajn de la &quot;OpenSSL Project&quot; por uz
         <translation>Vidigi la liston de uzitaj ricevaj adresoj kaj etikedoj</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Malfermi quark:-URI-on aŭ pagpeton</translation>
+        <source>Open a c-note: URI or payment request</source>
+        <translation>Malfermi c-note:-URI-on aŭ pagpeton</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komandliniaj agordaĵoj</translation>
     </message>
     <message>
-        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
+        <source>Show the C-Note help message to get a list with possible C-Note command-line options</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -883,11 +883,11 @@ Adreso: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>C-Note Core - Command-line options</source>
+        <source>C-Note - Command-line options</source>
         <translation>Bitmona Kerno - Komandliniaj agordaĵoj</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>Kerno de Bitmono</translation>
     </message>
     <message>
@@ -934,16 +934,16 @@ Adreso: %4
         <translation>Bonvenon</translation>
     </message>
     <message>
-        <source>Welcome to C-Note Core.</source>
-        <translation>Bonvenon al la bitmona kerno, C-Note Core.</translation>
+        <source>Welcome to C-Note.</source>
+        <translation>Bonvenon al la bitmona kerno, C-Note.</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
-        <translation>Dum tiu ĉi unua uzo de la programo, vi povas elekti lokon, kie C-Note Core stokos siajn datumojn.</translation>
+        <source>As this is the first time the program is launched, you can choose where C-Note will store its data.</source>
+        <translation>Dum tiu ĉi unua uzo de la programo, vi povas elekti lokon, kie C-Note stokos siajn datumojn.</translation>
     </message>
     <message>
-        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>C-Note Core elŝutos kaj konservos kopion de la bitmona blokĉeno. Almenaŭ %1GB da datumoj konserviĝos en tiu loko, kaj tio poiome kreskos. Ankaŭ via monujo konserviĝos en tiu dosierujo.</translation>
+        <source>C-Note will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>C-Note elŝutos kaj konservos kopion de la bitmona blokĉeno. Almenaŭ %1GB da datumoj konserviĝos en tiu loko, kaj tio poiome kreskos. Ankaŭ via monujo konserviĝos en tiu dosierujo.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1286,7 +1286,7 @@ Adreso: %4
         <translation>Eraro dum pagopeto</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
+        <source>Cannot start c-note: click-to-pay handler</source>
         <translation>Ne eblas lanĉi la ilon &apos;klaki-por-pagi&apos;</translation>
     </message>
     <message>
@@ -1357,7 +1357,7 @@ Adreso: %4
         <translation>Eraro: nevalida kunigo de -regtest kaj -testnet</translation>
     </message>
     <message>
-        <source>C-Note Core didn&apos;t yet exit safely...</source>
+        <source>C-Note didn&apos;t yet exit safely...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1954,7 +1954,7 @@ Adreso: %4
         <translation>Tajpu etikedon por tiu ĉi adreso por aldoni ĝin al la listo de uzitaj adresoj</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <source>A message that was attached to the c-note: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1973,7 +1973,7 @@ Adreso: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>C-Note Core is shutting down...</source>
+        <source>C-Note is shutting down...</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2127,11 +2127,11 @@ Adreso: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>Kerno de Bitmono</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
+        <source>The C-Note developers</source>
         <translation>La programistoj de Bitmona Kerno</translation>
     </message>
     <message>
@@ -2610,12 +2610,12 @@ Adreso: %4
         <translation>Agordoj:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Specifi konfiguran dosieron (defaŭlte: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: c-notecoin.conf)</source>
+        <translation>Specifi konfiguran dosieron (defaŭlte: c-notecoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: quarkd.pid)</source>
-        <translation>Specifi pid-dosieron (defaŭlte: quarkd.pid)</translation>
+        <source>Specify pid file (default: c-noted.pid)</source>
+        <translation>Specifi pid-dosieron (defaŭlte: c-noted.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2658,7 +2658,7 @@ Adreso: %4
         <translation>Akcepti komandojn JSON-RPC kaj el komandlinio</translation>
     </message>
     <message>
-        <source>C-Note Core RPC client version</source>
+        <source>C-Note RPC client version</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2677,7 +2677,7 @@ Adreso: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2688,7 +2688,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>%s, vi devas specifi rpcpassword en la konfigura dosiero:
 %s
 Estas konsilinde uzi tiun ĉi aleatore kreitan pasvorton:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (ne utilas al vi memorigi tiun ĉi pasvorton)
 La salutnomo kaj la pasvorto estu nepre MALSAMAJ.
@@ -2766,7 +2766,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Tiu ĉi estas antaŭeldona testa versio - uzu laŭ via propra risko - ne uzu por minado aŭ por aplikaĵoj por vendistoj</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. C-Note is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2814,7 +2814,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Provo ripari privatajn ŝlosilojn el difektita wallet.dat</translation>
     </message>
     <message>
-        <source>C-Note Core Daemon</source>
+        <source>C-Note Daemon</source>
         <translation>Bitmonakerna Demono</translation>
     </message>
     <message>
@@ -3022,8 +3022,8 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Usage (deprecated, use quark-cli):</source>
-        <translation>Uzado (malaktuala, uzu anstataŭe quark-cli):</translation>
+        <source>Usage (deprecated, use c-note-cli):</source>
+        <translation>Uzado (malaktuala, uzu anstataŭe c-note-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3058,7 +3058,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Importas blokojn el ekstera dosiero blk000??.dat</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. C-Note is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3146,7 +3146,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>SSL-agordaĵoj: (vidu la vikio de Bitmono por instrukcioj pri agordado de SSL)</translation>
     </message>
     <message>
-        <source>Send command to C-Note Core</source>
+        <source>Send command to C-Note</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3182,7 +3182,7 @@ ekzemple: alertnotify=echo %%s | mail -s &quot;Averto de Bitmono&quot; admin@foo
         <translation>Specifi konektan tempolimon je milisekundoj (defaŭlte: 5000)</translation>
     </message>
     <message>
-        <source>Start C-Note Core Daemon</source>
+        <source>Start C-Note Daemon</source>
         <translation type="unfinished"/>
     </message>
     <message>

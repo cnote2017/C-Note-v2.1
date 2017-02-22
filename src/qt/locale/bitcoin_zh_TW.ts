@@ -2,11 +2,11 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About C-Note Core</source>
+        <source>About C-Note</source>
         <translation>關於位元幣核心</translation>
     </message>
     <message>
-        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
+        <source>&lt;b&gt;C-Note&lt;/b&gt; version</source>
         <translation>&lt;b&gt;位元幣核心&lt;/b&gt; 版本</translation>
     </message>
     <message>
@@ -30,7 +30,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>版權</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
+        <source>The C-Note developers</source>
         <translation>位元幣核心開發人員</translation>
     </message>
     <message>
@@ -227,7 +227,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>錢包已加密</translation>
     </message>
     <message>
-        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</source>
         <translation>位元幣軟體現在要關閉，好完成加密程序。請注意，加密錢包不能完全防止入侵你的電腦的惡意程式偷取位元幣。</translation>
     </message>
     <message>
@@ -430,15 +430,15 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>位元幣核心</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
+        <source>Request payments (generates QR codes and c-note: URIs)</source>
         <translation>要求付款(產生 QR Code 和位元幣付款協議的 URI)</translation>
     </message>
     <message>
-        <source>&amp;About C-Note Core</source>
+        <source>&amp;About C-Note</source>
         <translation>關於位元幣核心</translation>
     </message>
     <message>
@@ -450,7 +450,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>顯示已使用過的收款位址和標記的清單</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
+        <source>Open a c-note: URI or payment request</source>
         <translation>開啓 bitcoin 協議的 URI 或付款要求</translation>
     </message>
     <message>
@@ -458,7 +458,7 @@ This product includes software developed by the OpenSSL Project for use in the O
         <translation>命令列選項</translation>
     </message>
     <message>
-        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
+        <source>Show the C-Note help message to get a list with possible C-Note command-line options</source>
         <translation>顯示位元幣核心的說明訊息，來取得可用命令列選項的列表</translation>
     </message>
     <message>
@@ -885,11 +885,11 @@ Address: %4
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>C-Note Core - Command-line options</source>
+        <source>C-Note - Command-line options</source>
         <translation>位元幣核心 - 命令列選項</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>位元幣核心</translation>
     </message>
     <message>
@@ -936,15 +936,15 @@ Address: %4
         <translation>歡迎</translation>
     </message>
     <message>
-        <source>Welcome to C-Note Core.</source>
+        <source>Welcome to C-Note.</source>
         <translation>歡迎使用位元幣核心</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
+        <source>As this is the first time the program is launched, you can choose where C-Note will store its data.</source>
         <translation>因為這是程式第一次啓動，你可以選擇位元幣核心儲存資料的地方。</translation>
     </message>
     <message>
-        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <source>C-Note will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
         <translation>位元幣核心會下載並儲存一份位元幣區塊鏈的拷貝。至少有 %1GB 的資料會儲存到這個目錄中，並且還會持續增長。另外錢包資料也會儲存在這個目錄。</translation>
     </message>
     <message>
@@ -1288,7 +1288,7 @@ Address: %4
         <translation>要求付款時發生錯誤</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
+        <source>Cannot start c-note: click-to-pay handler</source>
         <translation>沒辦法啟動 bitcoin 協議的按就付處理器</translation>
     </message>
     <message>
@@ -1359,7 +1359,7 @@ Address: %4
         <translation>錯誤: -regtest 和 -testnet 的使用組合無效。</translation>
     </message>
     <message>
-        <source>C-Note Core didn&apos;t yet exit safely...</source>
+        <source>C-Note didn&apos;t yet exit safely...</source>
         <translation>位元幣核心還沒有安全地結束...</translation>
     </message>
     <message>
@@ -1956,7 +1956,7 @@ Address: %4
         <translation>請輸入這個位址的標記，來把它加進去已使用過位址的清單。</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <source>A message that was attached to the c-note: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
         <translation>附加在位元幣付款協議 URI 中的訊息，會和交易內容一起存起來，給你自己做參考。注意: 這個訊息不會送到位元幣網路上。</translation>
     </message>
     <message>
@@ -1975,7 +1975,7 @@ Address: %4
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>C-Note Core is shutting down...</source>
+        <source>C-Note is shutting down...</source>
         <translation>位元幣核心正在關閉中...</translation>
     </message>
     <message>
@@ -2129,11 +2129,11 @@ Address: %4
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>位元幣核心</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
+        <source>The C-Note developers</source>
         <translation>位元幣核心開發人員</translation>
     </message>
     <message>
@@ -2612,12 +2612,12 @@ Address: %4
         <translation>選項:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>指定設定檔(預設值: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: c-notecoin.conf)</source>
+        <translation>指定設定檔(預設值: c-notecoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: quarkd.pid)</source>
-        <translation>指定行程識別碼(PID)檔(預設值:  quarkd.pid)</translation>
+        <source>Specify pid file (default: c-noted.pid)</source>
+        <translation>指定行程識別碼(PID)檔(預設值:  c-noted.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2661,7 +2661,7 @@ Address: %4
 </translation>
     </message>
     <message>
-        <source>C-Note Core RPC client version</source>
+        <source>C-Note RPC client version</source>
         <translation>位元幣核心 RPC 客戶端軟體版本</translation>
     </message>
     <message>
@@ -2680,7 +2680,7 @@ Address: %4
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2691,7 +2691,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>%s, 你必須要在以下設定檔中設定 RPC 密碼(rpcpassword):
 %s
 建議你使用以下隨機產生的密碼:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (你不用記住這個密碼)
 使用者名稱(rpcuser)和密碼(rpcpassword)不可以相同！
@@ -2769,7 +2769,7 @@ alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com</translati
         <translation>這是個還沒發表的測試版本 - 使用請自負風險 - 請不要用來開採或商業應用</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
+        <source>Unable to bind to %s on this computer. C-Note is probably already running.</source>
         <translation>沒辦法繫結在這台電腦上的 %s 。位元幣核心可能已經在執行了。</translation>
     </message>
     <message>
@@ -2817,7 +2817,7 @@ alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com</translati
         <translation>嘗試從壞掉的錢包檔 wallet.dat 復原密鑰</translation>
     </message>
     <message>
-        <source>C-Note Core Daemon</source>
+        <source>C-Note Daemon</source>
         <translation>位元幣核心護靈</translation>
     </message>
     <message>
@@ -3025,8 +3025,8 @@ alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com</translati
         <translation>這是設計用來給回歸測試工具和應用程式開發用的。</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use quark-cli):</source>
-        <translation>用法(已過時，請改用 quark-cli):</translation>
+        <source>Usage (deprecated, use c-note-cli):</source>
+        <translation>用法(已過時，請改用 c-note-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3061,7 +3061,7 @@ alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com</translati
         <translation>從其它來源的 blk000??.dat 檔匯入區塊</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. C-Note is probably already running.</source>
         <translation>沒辦法鎖定資料目錄 %s。位元幣核心可能已經在執行了。</translation>
     </message>
     <message>
@@ -3149,7 +3149,7 @@ alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com</translati
         <translation>SSL 選項: (SSL 設定程序請見 C-Note Wiki)</translation>
     </message>
     <message>
-        <source>Send command to C-Note Core</source>
+        <source>Send command to C-Note</source>
         <translation>傳送指令給位元幣核心</translation>
     </message>
     <message>
@@ -3185,7 +3185,7 @@ alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.com</translati
         <translation>指定連線在幾毫秒後逾時(預設值: 5000)</translation>
     </message>
     <message>
-        <source>Start C-Note Core Daemon</source>
+        <source>Start C-Note Daemon</source>
         <translation>啟動位元幣核心護靈</translation>
     </message>
     <message>

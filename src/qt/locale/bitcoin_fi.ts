@@ -2,12 +2,12 @@
 <context>
     <name>AboutDialog</name>
     <message>
-        <source>About C-Note Core</source>
-        <translation>Tietoja C-Note Core</translation>
+        <source>About C-Note</source>
+        <translation>Tietoja C-Note</translation>
     </message>
     <message>
-        <source>&lt;b&gt;C-Note Core&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;C-Note Core&lt;/b&gt; versio</translation>
+        <source>&lt;b&gt;C-Note&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;C-Note&lt;/b&gt; versio</translation>
     </message>
     <message>
         <source>
@@ -29,8 +29,8 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>Tekijänoikeus</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
-        <translation>C-Note Core kehittäjät</translation>
+        <source>The C-Note developers</source>
+        <translation>C-Note kehittäjät</translation>
     </message>
     <message>
         <source>(%1-bit)</source>
@@ -226,7 +226,7 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>Lompakko salattu</translation>
     </message>
     <message>
-        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your quarks from being stolen by malware infecting your computer.</source>
+        <source>C-Note will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your c-notes from being stolen by malware infecting your computer.</source>
         <translation>C-Note sulkeutuu lopettaakseen salausprosessin. Muista, että salattukaan lompakko ei täysin suojaa sitä haittaohjelmien aiheuttamilta varkauksilta.</translation>
     </message>
     <message>
@@ -429,16 +429,16 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>[testnet]</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>Bitcoin-ydin</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and quark: URIs)</source>
-        <translation>Pyydä maksuja (Luo QR koodit ja quark: URIt)</translation>
+        <source>Request payments (generates QR codes and c-note: URIs)</source>
+        <translation>Pyydä maksuja (Luo QR koodit ja c-note: URIt)</translation>
     </message>
     <message>
-        <source>&amp;About C-Note Core</source>
-        <translation>&amp;Tietoja C-Note Core</translation>
+        <source>&amp;About C-Note</source>
+        <translation>&amp;Tietoja C-Note</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -449,16 +449,16 @@ Tämä ohjelma sisältää OpenSSL projektin OpenSSL työkalupakin (http://www.o
         <translation>Näytä vastaanottamiseen käytettyjen osoitteiden ja nimien lista</translation>
     </message>
     <message>
-        <source>Open a quark: URI or payment request</source>
-        <translation>Avaa quark: URI tai maksupyyntö</translation>
+        <source>Open a c-note: URI or payment request</source>
+        <translation>Avaa c-note: URI tai maksupyyntö</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Komentorivin valinnat</translation>
     </message>
     <message>
-        <source>Show the C-Note Core help message to get a list with possible C-Note command-line options</source>
-        <translation>Näytä C-Note Core ohjeet saadaksesi listan mahdollisista C-Notein komentorivivalinnoista</translation>
+        <source>Show the C-Note help message to get a list with possible C-Note command-line options</source>
+        <translation>Näytä C-Note ohjeet saadaksesi listan mahdollisista C-Notein komentorivivalinnoista</translation>
     </message>
     <message>
         <source>C-Note client</source>
@@ -883,11 +883,11 @@ Osoite: %4</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>C-Note Core - Command-line options</source>
-        <translation>C-Note Core - Kometorivivalinnat</translation>
+        <source>C-Note - Command-line options</source>
+        <translation>C-Note - Kometorivivalinnat</translation>
     </message>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>Bitcoin-ydin</translation>
     </message>
     <message>
@@ -934,16 +934,16 @@ Osoite: %4</translation>
         <translation>Tervetuloa</translation>
     </message>
     <message>
-        <source>Welcome to C-Note Core.</source>
-        <translation>Tervetuloa C-Note Core</translation>
+        <source>Welcome to C-Note.</source>
+        <translation>Tervetuloa C-Note</translation>
     </message>
     <message>
-        <source>As this is the first time the program is launched, you can choose where C-Note Core will store its data.</source>
-        <translation>Tämän on ensimmäinen kerta kun C-Note Core on käynnistetty joten voit valita data-hakemiston paikan.</translation>
+        <source>As this is the first time the program is launched, you can choose where C-Note will store its data.</source>
+        <translation>Tämän on ensimmäinen kerta kun C-Note on käynnistetty joten voit valita data-hakemiston paikan.</translation>
     </message>
     <message>
-        <source>C-Note Core will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
-        <translation>C-Note Core lataa ja tallentaa kopion C-Notein lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
+        <source>C-Note will download and store a copy of the C-Note block chain. At least %1GB of data will be stored in this directory, and it will grow over time. The wallet will also be stored in this directory.</source>
+        <translation>C-Note lataa ja tallentaa kopion C-Notein lohkoketjusta. Vähintään %1GB dataa tullaan tallentamaan tähän hakemistoon ja tarve kasvaa ajan myötä. Lomakko tullaan myös tallentamaan tähän hakemistoon.</translation>
     </message>
     <message>
         <source>Use the default data directory</source>
@@ -1286,8 +1286,8 @@ Osoite: %4</translation>
         <translation>Maksupyyntövirhe</translation>
     </message>
     <message>
-        <source>Cannot start quark: click-to-pay handler</source>
-        <translation>Ei voida käynnistää quark: klikkaa-maksu käsittelijää</translation>
+        <source>Cannot start c-note: click-to-pay handler</source>
+        <translation>Ei voida käynnistää c-note: klikkaa-maksu käsittelijää</translation>
     </message>
     <message>
         <source>Net manager warning</source>
@@ -1357,8 +1357,8 @@ Osoite: %4</translation>
         <translation>Virhe: Virheellinen yhdistelmä -regtest ja -testnet.</translation>
     </message>
     <message>
-        <source>C-Note Core didn&apos;t yet exit safely...</source>
-        <translation>C-Note Core ei ole vielä sulkeutunut turvallisesti...</translation>
+        <source>C-Note didn&apos;t yet exit safely...</source>
+        <translation>C-Note ei ole vielä sulkeutunut turvallisesti...</translation>
     </message>
     <message>
         <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
@@ -1954,8 +1954,8 @@ Osoite: %4</translation>
         <translation>Aseta nimi tälle osoitteelle lisätäksesi sen käytettyjen osoitteiden listalle.</translation>
     </message>
     <message>
-        <source>A message that was attached to the quark: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
-        <translation>Viesti joka liitettiin quark: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä C-Note-verkkoon.</translation>
+        <source>A message that was attached to the c-note: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the C-Note network.</source>
+        <translation>Viesti joka liitettiin c-note: URI:iin tallennetaan rahansiirtoon viitteeksi. Tätä viestiä ei lähetetä C-Note-verkkoon.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
@@ -1973,7 +1973,7 @@ Osoite: %4</translation>
 <context>
     <name>ShutdownWindow</name>
     <message>
-        <source>C-Note Core is shutting down...</source>
+        <source>C-Note is shutting down...</source>
         <translation>C-Note core sulkeutuu...</translation>
     </message>
     <message>
@@ -2127,12 +2127,12 @@ Osoite: %4</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>C-Note Core</source>
+        <source>C-Note</source>
         <translation>Bitcoin-ydin</translation>
     </message>
     <message>
-        <source>The C-Note Core developers</source>
-        <translation>C-Note Core kehittäjät</translation>
+        <source>The C-Note developers</source>
+        <translation>C-Note kehittäjät</translation>
     </message>
     <message>
         <source>[testnet]</source>
@@ -2610,12 +2610,12 @@ Osoite: %4</translation>
         <translation>Asetukset:</translation>
     </message>
     <message>
-        <source>Specify configuration file (default: quarkcoin.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: quarkcoin.conf)</translation>
+        <source>Specify configuration file (default: c-notecoin.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: c-notecoin.conf)</translation>
     </message>
     <message>
-        <source>Specify pid file (default: quarkd.pid)</source>
-        <translation>Määritä pid-tiedosto (oletus: quark.pid)</translation>
+        <source>Specify pid file (default: c-noted.pid)</source>
+        <translation>Määritä pid-tiedosto (oletus: c-note.pid)</translation>
     </message>
     <message>
         <source>Specify data directory</source>
@@ -2658,8 +2658,8 @@ Osoite: %4</translation>
         <translation>Hyväksy merkkipohjaiset- ja JSON-RPC-käskyt</translation>
     </message>
     <message>
-        <source>C-Note Core RPC client version</source>
-        <translation>C-Note Core RPC asiakasversio</translation>
+        <source>C-Note RPC client version</source>
+        <translation>C-Note RPC asiakasversio</translation>
     </message>
     <message>
         <source>Run in the background as a daemon and accept commands</source>
@@ -2677,7 +2677,7 @@ Osoite: %4</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
@@ -2688,7 +2688,7 @@ for example: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>%s, sinun tulee asettaa rpcpassword asetustietostossa:
 %s
 Suositellaan että käytät allaolevaa satunnaista salasanaa:
-rpcuser=quarkrpc
+rpcuser=c-noterpc
 rpcpassword=%s
 (sinun ei tarvitse muistaa tätä salasanaa)
 Tämän tunnuksen ja salasanan TULEE OLLA sama.
@@ -2766,8 +2766,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Tämä on esi-julkaistu testiversio - Käytä omalla riskillä - Ei saa käytää louhimiseen tai kauppasovelluksiin.</translation>
     </message>
     <message>
-        <source>Unable to bind to %s on this computer. C-Note Core is probably already running.</source>
-        <translation>Ei voida yhdistää %s tässä tietokoneessa. C-Note Core on luultavasti jo käynnissä.</translation>
+        <source>Unable to bind to %s on this computer. C-Note is probably already running.</source>
+        <translation>Ei voida yhdistää %s tässä tietokoneessa. C-Note on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Use separate SOCKS5 proxy to reach peers via Tor hidden services (default: -proxy)</source>
@@ -2814,8 +2814,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Yritetään palauttaa privaattiavaimia korruptoituneesta wallet.dat -lompakkotiedostosta</translation>
     </message>
     <message>
-        <source>C-Note Core Daemon</source>
-        <translation>C-Note Core taustapalvelin</translation>
+        <source>C-Note Daemon</source>
+        <translation>C-Note taustapalvelin</translation>
     </message>
     <message>
         <source>Block creation options:</source>
@@ -3022,8 +3022,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Tämä on tarkoitettu regression testityökaluille ja ohjelman kehittämiseen.</translation>
     </message>
     <message>
-        <source>Usage (deprecated, use quark-cli):</source>
-        <translation>Käyttö (vanhentunut, käytä quark-cli):</translation>
+        <source>Usage (deprecated, use c-note-cli):</source>
+        <translation>Käyttö (vanhentunut, käytä c-note-cli):</translation>
     </message>
     <message>
         <source>Verifying blocks...</source>
@@ -3058,8 +3058,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Tuodaan lohkoja ulkoisesta blk000??.dat tiedostosta</translation>
     </message>
     <message>
-        <source>Cannot obtain a lock on data directory %s. C-Note Core is probably already running.</source>
-        <translation>Ei voida lukita data-hakemistoa %s. C-Note Core on luultavasti jo käynnissä.</translation>
+        <source>Cannot obtain a lock on data directory %s. C-Note is probably already running.</source>
+        <translation>Ei voida lukita data-hakemistoa %s. C-Note on luultavasti jo käynnissä.</translation>
     </message>
     <message>
         <source>Execute command when a relevant alert is received or we see a really long fork (%s in cmd is replaced by message)</source>
@@ -3146,8 +3146,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>SSL asetukset (katso C-Note Wikistä tarkemmat SSL ohjeet)</translation>
     </message>
     <message>
-        <source>Send command to C-Note Core</source>
-        <translation>Lähetä komento C-Note Coreen</translation>
+        <source>Send command to C-Note</source>
+        <translation>Lähetä komento C-Noteen</translation>
     </message>
     <message>
         <source>Send trace/debug info to console instead of debug.log file</source>
@@ -3182,8 +3182,8 @@ esimerkiksi: alertnotify=echo %%s | mail -s &quot;C-Note Alert&quot; admin@foo.c
         <translation>Määritä yhteyden aikakataisu millisekunneissa (vakioasetus: 5000)</translation>
     </message>
     <message>
-        <source>Start C-Note Core Daemon</source>
-        <translation>Käynnistä C-Note Core taustapalvelin</translation>
+        <source>Start C-Note Daemon</source>
+        <translation>Käynnistä C-Note taustapalvelin</translation>
     </message>
     <message>
         <source>System error: </source>

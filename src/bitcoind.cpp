@@ -86,13 +86,13 @@ bool AppInit(int argc, char* argv[])
         if (mapArgs.count("-?") || mapArgs.count("--help"))
         {
             // First part of help message is specific to bitcoind / RPC client
-            std::string strUsage = _("C-Note Core Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
+            std::string strUsage = _("C-Note Daemon") + " " + _("version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  quarkd [options]                     " + _("Start C-Note Core Daemon") + "\n" +
-                _("Usage (deprecated, use quark-cli):") + "\n" +
-                  "  quarkd [options] <command> [params]  " + _("Send command to C-Note Core") + "\n" +
-                  "  quarkd [options] help                " + _("List commands") + "\n" +
-                  "  quarkd [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  c-noted [options]                     " + _("Start C-Note Daemon") + "\n" +
+                _("Usage (deprecated, use c-note-cli):") + "\n" +
+                  "  c-noted [options] <command> [params]  " + _("Send command to C-Note") + "\n" +
+                  "  c-noted [options] help                " + _("List commands") + "\n" +
+                  "  c-noted [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage(HMM_BITCOIND);
             strUsage += "\n" + HelpMessageCli(false);
@@ -104,7 +104,7 @@ bool AppInit(int argc, char* argv[])
         // Command-line RPC
         bool fCommandLine = false;
         for (int i = 1; i < argc; i++)
-            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "quark:"))
+            if (!IsSwitchChar(argv[i][0]) && !boost::algorithm::istarts_with(argv[i], "c-note:"))
                 fCommandLine = true;
 
         if (fCommandLine)

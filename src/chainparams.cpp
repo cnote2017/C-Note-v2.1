@@ -69,14 +69,7 @@ public:
         assert(hashGenesisBlock == hashMainGenesisBlock);
         assert(genesis.hashMerkleRoot == uint256("0x0d7647d5755faf897a2416ab51b65ad2f3608cd504610efe61abc464414db7b5"));
 
-        vSeeds.push_back(CDNSSeedData("seed1.qrknet.info", "seed1.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed2.qrknet.info", "seed2.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed3.qrknet.info", "seed3.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed4.qrknet.info", "seed4.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed5.qrknet.info", "seed5.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed6.qrknet.info", "seed6.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed7.qrknet.info", "seed7.qrknet.info"));
-        vSeeds.push_back(CDNSSeedData("seed8.qrknet.info", "seed8.qrknet.info"));
+        vSeeds.push_back(CDNSSeedData("87.229.77.126", "87.229.77.126"));
 		
         base58Prefixes[PUBKEY_ADDRESS] = list_of(58);
         base58Prefixes[SCRIPT_ADDRESS] = list_of(9);
@@ -122,10 +115,10 @@ public:
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
-        pchMessageStart[0] = 0x05;
-        pchMessageStart[1] = 0xfe;
-        pchMessageStart[2] = 0xa5;
-        pchMessageStart[3] = 0x03;
+        pchMessageStart[0] = 0x01; //0x05;
+        pchMessageStart[1] = 0x1A; //0xfe;
+        pchMessageStart[2] = 0x39; //0xa5;
+        pchMessageStart[3] = 0xF7; //0x03;
         vAlertPubKey = ParseHex("04218bc3f08237baa077cb1b0e5a81695fcf3f5b4e220b4ad274d05a31d762dd4e191efa7b736a24a32d6fd9ac1b5ebb2787c70e9dfad0016a8b32f7bd2520dbd5");
         nDefaultPort = 28491;
         nRPCPort = 18460;
@@ -135,7 +128,7 @@ public:
         genesis.nTime = 1373481000;
         genesis.nNonce = 905523645;
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000e5e37c42d6b67d0934399adfb0fa48b59138abb1a8842c88f4ca3d4ec96"));
+        //assert(hashGenesisBlock == uint256("0x00000e5e37c42d6b67d0934399adfb0fa48b59138abb1a8842c88f4ca3d4ec96"));
 
         vFixedSeeds.clear();
         vSeeds.clear();
@@ -169,7 +162,7 @@ public:
         hashGenesisBlock = genesis.GetHash();
         nDefaultPort = 18444;
         strDataDir = "regtest";
-        assert(hashGenesisBlock == uint256("0x9cc7038a62931521a044f22acd7d9cf3e6f1f35d4e877ffe106b39e946f8000e"));
+        //assert(hashGenesisBlock == uint256("0x9cc7038a62931521a044f22acd7d9cf3e6f1f35d4e877ffe106b39e946f8000e"));
 
         vSeeds.clear();  // Regtest mode doesn't have any DNS seeds.
     }
