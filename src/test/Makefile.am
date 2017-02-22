@@ -23,15 +23,15 @@ RAW_TEST_FILES = data/alertTests.raw
 BUILT_SOURCES = $(JSON_TEST_FILES:.json=.json.h) $(RAW_TEST_FILES:.raw=.raw.h)
 
 # test_c-note binary #
-test_c-note_CPPFLAGS = $(AM_CPPFLAGS) $(TESTDEFS)
-test_c-note_LDADD = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
+test_cnote_CPPFLAGS = $(AM_CPPFLAGS) $(TESTDEFS)
+test_cnote_LDADD = $(LIBBITCOIN_SERVER) $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(BOOST_UNIT_TEST_FRAMEWORK_LIB)
 if ENABLE_WALLET
-test_c-note_LDADD += $(LIBBITCOIN_WALLET)
+test_cnote_LDADD += $(LIBBITCOIN_WALLET)
 endif
-test_c-note_LDADD += $(BDB_LIBS)
+test_cnote_LDADD += $(BDB_LIBS)
 
-test_c-note_SOURCES = \
+test_cnote_SOURCES = \
   alert_tests.cpp \
   allocator_tests.cpp \
   base32_tests.cpp \
@@ -65,12 +65,12 @@ test_c-note_SOURCES = \
   $(JSON_TEST_FILES) $(RAW_TEST_FILES)
 
 if ENABLE_WALLET
-test_c-note_SOURCES += \
+test_cnote_SOURCES += \
    accounting_tests.cpp \
    wallet_tests.cpp \
    rpc_wallet_tests.cpp
 endif
 
-nodist_test_c-note_SOURCES = $(BUILT_SOURCES)
+nodist_test_cnote_SOURCES = $(BUILT_SOURCES)
 
 CLEANFILES = *.gcda *.gcno $(BUILT_SOURCES)

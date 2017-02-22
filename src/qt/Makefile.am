@@ -337,22 +337,22 @@ $(QT_MOC): $(PROTOBUF_H)
 $(QT_MOC_CPP): $(PROTOBUF_H)
 
 # c-note-qt binary #
-c-note_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
+cnote_qt_CPPFLAGS = $(AM_CPPFLAGS) $(QT_INCLUDES) \
   -I$(top_srcdir)/src/qt/forms
-c-note_qt_SOURCES = bitcoin.cpp
+cnote_qt_SOURCES = bitcoin.cpp
 if TARGET_DARWIN
-  c-note_qt_SOURCES += $(BITCOIN_MM)
+  cnote_qt_SOURCES += $(BITCOIN_MM)
 endif
 if TARGET_WINDOWS
-  c-note_qt_SOURCES += $(BITCOIN_RC)
+  cnote_qt_SOURCES += $(BITCOIN_RC)
 endif
-c-note_qt_LDADD = libbitcoinqt.a $(LIBBITCOIN_SERVER)
+cnote_qt_LDADD = libbitcoinqt.a $(LIBBITCOIN_SERVER)
 if ENABLE_WALLET
-c-note_qt_LDADD += $(LIBBITCOIN_WALLET)
+cnote_qt_LDADD += $(LIBBITCOIN_WALLET)
 endif
-c-note_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
+cnote_qt_LDADD += $(LIBBITCOIN_CLI) $(LIBBITCOIN_COMMON) $(LIBLEVELDB) $(LIBMEMENV) \
   $(BOOST_LIBS) $(QT_LIBS) $(QT_DBUS_LIBS) $(QR_LIBS) $(PROTOBUF_LIBS) $(BDB_LIBS)
-c-note_qt_LDFLAGS = $(QT_LDFLAGS)
+cnote_qt_LDFLAGS = $(QT_LDFLAGS)
 
 # forms/foo.h -> forms/ui_foo.h
 QT_FORMS_H=$(join $(dir $(QT_FORMS_UI)),$(addprefix ui_, $(notdir $(QT_FORMS_UI:.ui=.h))))

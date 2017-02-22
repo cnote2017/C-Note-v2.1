@@ -163,35 +163,35 @@ nodist_libbitcoin_common_a_SOURCES = $(top_srcdir)/src/obj/build.h
 #
 
 # c-noted binary #
-c-noted_LDADD = \
+cnoted_LDADD = \
   libbitcoin_server.a \
   libbitcoin_cli.a \
   libbitcoin_common.a \
   $(LIBLEVELDB) \
   $(LIBMEMENV)
 if ENABLE_WALLET
-c-noted_LDADD += libbitcoin_wallet.a
+cnoted_LDADD += libbitcoin_wallet.a
 endif
-c-noted_SOURCES = bitcoind.cpp
+cnoted_SOURCES = bitcoind.cpp
 #
 
 if TARGET_WINDOWS
-c-noted_SOURCES += bitcoind-res.rc
+cnoted_SOURCES += bitcoind-res.rc
 endif
 
 AM_CPPFLAGS += $(BDB_CPPFLAGS)
-c-noted_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
+cnoted_LDADD += $(BOOST_LIBS) $(BDB_LIBS)
 
 # c-note-cli binary #
-c-note_cli_LDADD = \
+cnote_cli_LDADD = \
   libbitcoin_cli.a \
   libbitcoin_common.a \
   $(BOOST_LIBS)
-c-note_cli_SOURCES = bitcoin-cli.cpp
+cnote_cli_SOURCES = bitcoin-cli.cpp
 #
 
 if TARGET_WINDOWS
-c-note_cli_SOURCES += bitcoin-cli-res.rc
+cnote_cli_SOURCES += bitcoin-cli-res.rc
 endif
 
 # NOTE: This dependency is not strictly necessary, but without it make may try to build both in parallel, which breaks the LevelDB build system in a race
