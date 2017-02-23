@@ -42,7 +42,7 @@ static const int MAX_PAYMENT_REQUEST_SIZE = 50000; // bytes
 #define SPINNER_FRAMES 35
 
 #define QAPP_ORG_NAME "C-Note"
-#define QAPP_ORG_DOMAIN "qrk.cc"
+#define QAPP_ORG_DOMAIN "fasbit.com"
 #define QAPP_APP_NAME_DEFAULT "C-Note-Qt"
 #define QAPP_APP_NAME_TESTNET "C-Note-Qt-testnet"
 
