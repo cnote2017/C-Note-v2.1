@@ -1361,8 +1361,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Adj meg egy C-Note-címet (pl.: QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS )</translation>
+        <source>Enter a C-Note address (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Adj meg egy C-Note-címet (pl.: CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27 )</translation>
     </message>
 </context>
 <context>
@@ -1906,7 +1906,7 @@ Cím: %4
         <translation>Címzett:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
+        <source>The address to send the payment to (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1997,8 +1997,8 @@ Cím: %4
         <translation>Aláírhat a címeivel üzeneteket, amivel bizonyíthatja, hogy a címek az önéi. Vigyázzon, hogy ne írjon alá semmi félreérthetőt, mivel a phising támadásokkal megpróbálhatják becsapni, hogy az azonosságát átírja másokra. Csak olyan részletes állításokat írjon alá, amivel egyetért.</translation>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Adj meg egy C-Note-címet (pl.: QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS )</translation>
+        <source>The address to sign the message with (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Adj meg egy C-Note-címet (pl.: CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27 )</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2053,8 +2053,8 @@ Cím: %4
         <translation>Írja be az aláírás címét, az üzenetet (ügyelve arra, hogy az új-sor, szóköz, tab, stb. karaktereket is pontosan) és az aláírást az üzenet ellenőrzéséhez. Ügyeljen arra, ne gondoljon többet az aláírásról, mint amennyi az aláírt szövegben ténylegesen áll, hogy elkerülje a köztes-ember (man-in-the-middle) támadást.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Adj meg egy C-Note-címet (pl.: QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS )</translation>
+        <source>The address the message was signed with (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Adj meg egy C-Note-címet (pl.: CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27 )</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified C-Note address</source>
@@ -2069,8 +2069,8 @@ Cím: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Adj meg egy C-Note-címet (pl.: QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS )</translation>
+        <source>Enter a C-Note address (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Adj meg egy C-Note-címet (pl.: CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27 )</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>

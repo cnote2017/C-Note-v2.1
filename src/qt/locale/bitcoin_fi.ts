@@ -1361,8 +1361,8 @@ Osoite: %4</translation>
         <translation>C-Note ei ole vielä sulkeutunut turvallisesti...</translation>
     </message>
     <message>
-        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Anna C-Note-osoite (esim. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Anna C-Note-osoite (esim. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
 </context>
 <context>
@@ -1906,8 +1906,8 @@ Osoite: %4</translation>
         <translation>Maksun saaja:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Osoite, johon C-Noteit lähetetään  (esim. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address to send the payment to (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Osoite, johon C-Noteit lähetetään  (esim. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1996,8 +1996,8 @@ Osoite: %4</translation>
         <translation>Voit allekirjoittaa viestit omalla osoitteellasi todistaaksesi että omistat ne. Ole huolellinen, että et allekirjoita mitään epämääräistä, phishing-hyökkääjät voivat huijata sinua allekirjoittamaan luovuttamalla henkilöllisyytesi. Allekirjoita selvitys täysin yksityiskohtaisesti mihin olet sitoutunut.</translation>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Osoite, jolla viesti allekirjoitetaan (esimerkiksi QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address to sign the message with (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Osoite, jolla viesti allekirjoitetaan (esimerkiksi CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2052,8 +2052,8 @@ Osoite: %4</translation>
         <translation>Syötä allekirjoittava osoite, viesti ja allekirjoitus alla oleviin kenttiin varmistaaksesi allekirjoituksen aitouden. Varmista että kopioit kaikki kentät täsmälleen oikein, myös rivinvaihdot, välilyönnit, tabulaattorit, jne.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Osoite, jolla viesti allekirjoitettiin (esimerkiksi QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address the message was signed with (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Osoite, jolla viesti allekirjoitettiin (esimerkiksi CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified C-Note address</source>
@@ -2068,8 +2068,8 @@ Osoite: %4</translation>
         <translation>Tyhjennä kaikki varmista-viesti-kentät</translation>
     </message>
     <message>
-        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Anna C-Note-osoite (esim. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Anna C-Note-osoite (esim. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>

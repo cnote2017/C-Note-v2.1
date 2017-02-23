@@ -1361,8 +1361,8 @@ Alamat: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Masukkan alamat C-Note (cth. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Masukkan alamat C-Note (cth. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
 </context>
 <context>
@@ -1906,8 +1906,8 @@ Alamat: %4
         <translation>Kirim &amp;Ke:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Alamat pembayaran (cth. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address to send the payment to (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Alamat pembayaran (cth. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1996,8 +1996,8 @@ Alamat: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Alamat yang akan ditandai pesan (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address to sign the message with (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Alamat yang akan ditandai pesan (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2052,7 +2052,7 @@ Alamat: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
+        <source>The address the message was signed with (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2068,8 +2068,8 @@ Alamat: %4
         <translation>Hapus semua bidang verifikasi pesan</translation>
     </message>
     <message>
-        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Masukkan alamat C-Note (cth. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Masukkan alamat C-Note (cth. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>

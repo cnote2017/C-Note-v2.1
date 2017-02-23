@@ -1355,8 +1355,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>یک آدرس bitcoin وارد کنید (مثال QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>یک آدرس bitcoin وارد کنید (مثال CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
 </context>
 <context>
@@ -1900,7 +1900,7 @@ Address: %4
         <translation>پرداخت و به چه کسی</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
+        <source>The address to send the payment to (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1990,8 +1990,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>یک آدرس bitcoin وارد کنید (مثال QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address to sign the message with (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>یک آدرس bitcoin وارد کنید (مثال CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2046,8 +2046,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>یک آدرس bitcoin وارد کنید (مثال QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address the message was signed with (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>یک آدرس bitcoin وارد کنید (مثال CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified C-Note address</source>
@@ -2062,8 +2062,8 @@ Address: %4
         <translation type="unfinished"/>
     </message>
     <message>
-        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>یک آدرس bitcoin وارد کنید (مثال QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>یک آدرس bitcoin وارد کنید (مثال CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>

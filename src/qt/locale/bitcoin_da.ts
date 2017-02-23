@@ -1361,8 +1361,8 @@ Adresse: %4
         <translation>C-Note blev ikke afsluttet på sikker vis …</translation>
     </message>
     <message>
-        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Indtast en C-Note-adresse (fx QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Indtast en C-Note-adresse (fx CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
 </context>
 <context>
@@ -1906,8 +1906,8 @@ Adresse: %4
         <translation>Betal til:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Bitcoin-adressen som betalingen skal sendes til (fx QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address to send the payment to (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Bitcoin-adressen som betalingen skal sendes til (fx CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1996,8 +1996,8 @@ Adresse: %4
         <translation>Du kan underskrive beskeder med dine C-Note-adresser for at bevise, at de tilhører dig. Pas på ikke at underskrive noget vagt, da phisingangreb kan narre dig til at overdrage din identitet. Underskriv kun fuldt detaljerede udsagn, du er enig i.</translation>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Bitcoin-adressen som beskeden skal underskrives med (fx QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address to sign the message with (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Bitcoin-adressen som beskeden skal underskrives med (fx CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2052,8 +2052,8 @@ Adresse: %4
         <translation>Indtast herunder den underskrivende adresse, beskeden (inkludér linjeskift, mellemrum mv. nøjagtigt, som de fremgår) og underskriften for at verificere beskeden. Vær forsigtig med ikke at lægge mere i underskriften end besked selv, så du undgår at blive narret af et man-in-the-middle-angreb.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Bitcoin-adressen som beskeden er underskrevet med (fx QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address the message was signed with (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Bitcoin-adressen som beskeden er underskrevet med (fx CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified C-Note address</source>
@@ -2068,8 +2068,8 @@ Adresse: %4
         <translation>Nulstil alle &quot;verificér besked&quot;-felter</translation>
     </message>
     <message>
-        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Indtast en C-Note-adresse (fx QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Indtast en C-Note-adresse (fx CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>

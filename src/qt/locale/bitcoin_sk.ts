@@ -1360,8 +1360,8 @@ Adresa: %4</translation>
         <translation>Jadro C-Note sa ešte úspešne nevyplo ...</translation>
     </message>
     <message>
-        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Zadajte C-Note adresu (napr. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Zadajte C-Note adresu (napr. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
 </context>
 <context>
@@ -1905,8 +1905,8 @@ Adresa: %4</translation>
         <translation>Zapla&amp;tiť:</translation>
     </message>
     <message>
-        <source>The address to send the payment to (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Adresa na odoslanie platby (napr. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address to send the payment to (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Adresa na odoslanie platby (napr. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Enter a label for this address to add it to your address book</source>
@@ -1995,8 +1995,8 @@ Adresa: %4</translation>
         <translation>Môžete podpísať správy svojou adresou a dokázať, že ju vlastníte. Buďte opatrní a podpíšte len prehlásenia s ktorými plne súhlasíte, nakoľko útoky typu &quot;phishing&quot; Vás môžu lákať k ich podpísaniu.</translation>
     </message>
     <message>
-        <source>The address to sign the message with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Zadajte C-Note adresu (napr. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address to sign the message with (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Zadajte C-Note adresu (napr. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Choose previously used address</source>
@@ -2051,8 +2051,8 @@ Adresa: %4</translation>
         <translation>Vložte podpisovaciu adresu, správu (uistite sa, že kopírujete ukončenia riadkov, medzery, odrážky, atď. presne) a podpis pod to na overenie adresy. Buďte opatrní a nečítajte ako podpísané viac než je v samotnej podpísanej správe a môžete sa tak vyhnúť podvodu mitm útokom.</translation>
     </message>
     <message>
-        <source>The address the message was signed with (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Zadajte C-Note adresu (napr. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>The address the message was signed with (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Zadajte C-Note adresu (napr. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Verify the message to ensure it was signed with the specified C-Note address</source>
@@ -2067,8 +2067,8 @@ Adresa: %4</translation>
         <translation>Obnoviť všetky polia v overiť správu</translation>
     </message>
     <message>
-        <source>Enter a C-Note address (e.g. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</source>
-        <translation>Zadajte C-Note adresu (napr. QfgBvXopUwn3KtDnW4HHqX2L7KD37TigXS)</translation>
+        <source>Enter a C-Note address (e.g. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</source>
+        <translation>Zadajte C-Note adresu (napr. CafKebfTyJFaS94HmeZzaDoL7QhFfe7J27)</translation>
     </message>
     <message>
         <source>Click &quot;Sign Message&quot; to generate signature</source>
