@@ -36,8 +36,8 @@ fi
 
 if [ -n "$DESC" ]; then
     NEWINFO="#define BUILD_DESC \"$DESC\""
-elif [ -n "$SUFFIX" ]; then
-    NEWINFO="#define BUILD_SUFFIX $SUFFIX"
+#elif [ -n "$SUFFIX" ]; then
+#    NEWINFO="#define BUILD_SUFFIX $SUFFIX"
 else
     NEWINFO="// No build information available"
 fi
