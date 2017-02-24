@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>573</width>
-    <height>342</height>
+    <height>435</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -236,25 +236,6 @@
               </item>
              </layout>
             </item>
-          <item>
-           <widget class="QLabel" name="label_wallet_bgcoin">
-            <property name="text">
-             <string/>
-            </property>
-            <property name="pixmap">
-             <pixmap resource="../bitcoin.qrc">:/images/wallet_bgcoin</pixmap>
-            </property>
-            <property name="scaledContents">
-             <bool>false</bool>
-            </property>
-            <property name="alignment">
-             <set>Qt::AlignCenter</set>
-            </property>
-            <property name="margin">
-             <number>-2</number>
-            </property>
-           </widget>
-          </item>
             <item>
              <spacer name="horizontalSpacer_3">
               <property name="orientation">
@@ -274,22 +255,6 @@
         </widget>
        </item>
        <item>
-        <widget class="QLabel" name="label_2">
-         <property name="autoFillBackground">
-          <bool>false</bool>
-         </property>
-         <property name="text">
-          <string/>
-         </property>
-         <property name="pixmap">
-          <pixmap>../res/images/wallet_bgcoin.png</pixmap>
-         </property>
-         <property name="scaledContents">
-          <bool>false</bool>
-         </property>
-        </widget>
-       </item>
-       <item>
         <spacer name="verticalSpacer">
          <property name="orientation">
           <enum>Qt::Vertical</enum>
@@ -301,6 +266,25 @@
           </size>
          </property>
         </spacer>
+       </item>
+       <item>
+        <widget class="QLabel" name="label_wallet_bgcoin">
+         <property name="text">
+          <string/>
+         </property>
+         <property name="pixmap">
+          <pixmap resource="../bitcoin.qrc">:/images/wallet_bgcoin</pixmap>
+         </property>
+         <property name="scaledContents">
+          <bool>false</bool>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignCenter</set>
+         </property>
+         <property name="margin">
+          <number>-2</number>
+         </property>
+        </widget>
        </item>
       </layout>
      </item>
@@ -396,6 +380,8 @@
    </item>
   </layout>
  </widget>
- <resources/>
+ <resources>
+  <include location="../bitcoin.qrc"/>
+ </resources>
  <connections/>
 </ui>
