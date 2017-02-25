@@ -1,5 +1,5 @@
 // Copyright (c) 2010 Satoshi Nakamoto
-// Copyright (c) 2009-2014 The Fasbit Inc.
+// Copyright (c) 2009-2014 Fasbit Inc.
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -44,7 +44,7 @@ public:
         pchMessageStart[3] = 0x03;
         vAlertPubKey = ParseHex("0493e6dc310a0e444cfb20f3234a238f77699806d47909a42481010c5ce68ff04d3babc959cd037bd3aa6ded929f2b9b4aa2f626786cd7f8495e5bb61e9cfebbc4");
         nDefaultPort = 18491;
-        nRPCPort = 18460;
+        nRPCPort = 18490;
         bnProofOfWorkLimit = bnMainProofOfWorkLimit;
         nSubsidyHalvingInterval = 60480;
 
@@ -121,7 +121,7 @@ public:
         pchMessageStart[3] = 0xF7; //0x03;
         vAlertPubKey = ParseHex("04218bc3f08237baa077cb1b0e5a81695fcf3f5b4e220b4ad274d05a31d762dd4e191efa7b736a24a32d6fd9ac1b5ebb2787c70e9dfad0016a8b32f7bd2520dbd5");
         nDefaultPort = 28491;
-        nRPCPort = 18460;
+        nRPCPort = 18490;
         strDataDir = "testnet3";
 
         // Modify the testnet genesis block so the timestamp is valid for a later start.

@@ -1,7 +1,7 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
 // Copyright (c) 2013 The Sifcoin developers
 // Copyright (c) 2013-2015 The C-Note developers
-// Copyright (c) 2009-2015 The Fasbit Inc.
+// Copyright (c) 2009-2015 Fasbit Inc.
 // Distributed under the MIT/X11 software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
@@ -1192,7 +1192,8 @@ static const int64_t nInterval = nTargetTimespan / nTargetSpacing; // 100 blocks
 
 int64_t GetBlockValue(int nHeight, int64_t nFees)
 {
-	if (nHeight < 1000) {return nGenesisBlockRewardCoin;}
+	//if (nHeight < 1000) {return nGenesisBlockRewardCoin;}
+    if (nHeight == 0) {return nGenesisBlockRewardCoin;}
 	
     int64_t nSubsidy = nBlockRewardStartCoin;
 
