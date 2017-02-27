@@ -1192,8 +1192,7 @@ static const int64_t nInterval = nTargetTimespan / nTargetSpacing; // 100 blocks
 
 int64_t GetBlockValue(int nHeight, int64_t nFees)
 {
-	//if (nHeight < 1000) {return nGenesisBlockRewardCoin;}
-    if (nHeight == 0) {return nGenesisBlockRewardCoin;}
+	if (nHeight < 1000) {return nGenesisBlockRewardCoin;}
 	
     int64_t nSubsidy = nBlockRewardStartCoin;
 
