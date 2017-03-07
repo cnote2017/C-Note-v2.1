@@ -1,6 +1,6 @@
 UNIX BUILD NOTES
 ====================
-Some notes on how to build Bitcoin in Unix. 
+Some notes on how to build C-Note in Unix. 
 
 To Build
 ---------------------
@@ -9,7 +9,7 @@ To Build
 	./configure
 	make
 
-This will build bitcoin-qt as well if the dependencies are met.
+This will build cnote-qt as well if the dependencies are met.
 
 Dependencies
 ---------------------
@@ -59,12 +59,6 @@ for Ubuntu 12.04 and later:
 
 	sudo apt-get install libboost-all-dev
 
- db4.8 packages are available [here](https://launchpad.net/~bitcoin/+archive/bitcoin).
- You can add the repository using the following command:
-
-        sudo add-apt-repository ppa:bitcoin/bitcoin
-        sudo apt-get update
-
  Ubuntu 12.04 and later have packages for libdb5.1-dev and libdb5.1++-dev,
  but using these will break binary wallet compatibility, and is not recommended.
 
@@ -83,7 +77,7 @@ To enable the change run
 
 	sudo apt-get update
 
-for other Ubuntu & Debian:
+for other Ubuntu & Debian (Ubuntu 16.04 should follow "Berkeley DB" instructions below):
 
 	sudo apt-get install libdb4.8-dev
 	sudo apt-get install libdb4.8++-dev
@@ -104,7 +98,7 @@ To build with Qt 4 you need the following:
 
     sudo apt-get install libqt4-dev libprotobuf-dev protobuf-compiler
 
-For Qt 5 you need the following:
+For Qt 5 you need the following (Omit libqt5core5 AND add protobuf-compiler for Ubuntu 16.04):
 
     sudo apt-get install libqt5gui5 libqt5core5 libqt5dbus5 qttools5-dev qttools5-dev-tools libprotobuf-dev
 
@@ -112,7 +106,7 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a bitcoin-qt executable will be
+Once these are installed, they will be found by configure and a cnote-qt executable will be
 built by default.
 
 Notes
@@ -228,4 +222,3 @@ In this case there is no dependency on Berkeley DB 4.8.
 
 Mining is also possible in disable-wallet mode, but only using the `getblocktemplate` RPC
 call not `getwork`.
-
