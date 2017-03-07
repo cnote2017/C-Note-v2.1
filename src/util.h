@@ -30,6 +30,7 @@
 #endif
 
 #include <boost/filesystem/path.hpp>
+#include <boost/date_time/posix_time/posix_time.hpp>
 #include <boost/thread.hpp>
 
 class CNetAddr;
