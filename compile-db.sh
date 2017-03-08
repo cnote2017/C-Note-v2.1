@@ -5,11 +5,13 @@ BITCOIN_ROOT=$(pwd)
 BDB_PREFIX="${BITCOIN_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 
-# Fetch the source and verify that it is not tampered with
-wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
-echo '12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz' | sha256sum -c
-# -> db-4.8.30.NC.tar.gz: OK
-tar -xzvf db-4.8.30.NC.tar.gz
+if [ ! -d "db-4.8.30.NC" ]; then
+  # Fetch the source and verify that it is not tampered with
+  wget 'http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz'
+  echo '12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz' | sha256sum -c
+  # -> db-4.8.30.NC.tar.gz: OK
+  tar -xzvf db-4.8.30.NC.tar.gz
+fi
 
 # Build the library and install to our prefix
 cd db-4.8.30.NC/build_unix/
@@ -22,5 +24,3 @@ cd $BITCOIN_ROOT
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
 
 make
-
-
