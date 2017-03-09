@@ -24,3 +24,6 @@ fi
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/"
 
 make
+strip src/cnote-cli
+strip src/cnoted
+strip src/qt/cnote-qt
