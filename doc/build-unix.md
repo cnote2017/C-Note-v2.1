@@ -202,11 +202,19 @@ Notes
 The release is built with GCC and then "strip bitcoind" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
-To Build
+To Build with GUI
 ---------------------
 
 	./autogen.sh
 	./compile-db.sh
 	./src/qt/cnote-qt
 
-This will build cnote-qt as well if the dependencies are met.
+This will build cnote-qt if the dependencies are met.
+
+To Build Headless
+---------------------
+
+	./autogen.sh
+	./compile-db.sh
+	make
+	sudo make install
